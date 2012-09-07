@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Appuchino]]></title>
-  <link href="http://Appuchino.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Objective-C | Appuchino]]></title>
+  <link href="http://Appuchino.github.com/blog/categories/objective-c/atom.xml" rel="self"/>
   <link href="http://Appuchino.github.com/"/>
   <updated>2012-09-07T16:02:59+01:00</updated>
   <id>http://Appuchino.github.com/</id>
@@ -20,7 +20,7 @@
     <id>http://Appuchino.github.com/blog/2012/09/07/test-blog-entry-how-to-compare-colors</id>
     <content type="html"><![CDATA[<h1>Colors compare problem</h1>
 
-<p>During my <a href="http://colorificapp.com">Colorific</a> development I found a problem - how to recognize that colors are similar. I&#8217;ve searched stack overflow and found some few algorythms which were useful but were not too helpful.</p>
+<p>During my <a href="http://colorificapp.com">Colorific</a> development I found a problem - how to recognize that colors are similar. I've searched stack overflow and found some few algorythms which were useful but were not too helpful.</p>
 
 <p>The very first idea was to measure distance in 3D (r,g,b) space between 2 colors:
 $$
@@ -35,7 +35,7 @@ $$</p>
 <h2>Subtitle 1</h2>
 
 <p>Hey this is another bunch of texh with some code here!
-Liquid error: ClassNotFound: no lexer for alias &#8216;Objective&#8217; found</p>
+Liquid error: ClassNotFound: no lexer for alias 'Objective' found</p>
 ]]></content>
   </entry>
   
