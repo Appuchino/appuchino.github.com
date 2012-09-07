@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Algorythms | Appuchino]]></title>
   <link href="http://Appuchino.github.com/blog/categories/algorythms/atom.xml" rel="self"/>
   <link href="http://Appuchino.github.com/"/>
-  <updated>2012-09-07T16:02:59+01:00</updated>
+  <updated>2012-09-07T16:07:14+01:00</updated>
   <id>http://Appuchino.github.com/</id>
   <author>
     <name><![CDATA[Alexey Rashevskiy]]></name>
@@ -35,7 +35,33 @@ $$</p>
 <h2>Subtitle 1</h2>
 
 <p>Hey this is another bunch of texh with some code here!
-Liquid error: ClassNotFound: no lexer for alias 'Objective' found</p>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Rainbow colors </span><a href='http://stackoverflow.com/questions/9652762/ios-rainbow-colors-array'>From StackOverflow </a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">NSMutableArray</span> <span class="o">*</span><span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSMutableArray</span> <span class="n">array</span><span class="p">];</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="kt">float</span> <span class="n">INCREMENT</span> <span class="o">=</span> <span class="mf">0.05</span><span class="p">;</span>
+</span><span class='line'><span class="k">for</span> <span class="p">(</span><span class="kt">float</span> <span class="n">hue</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span> <span class="n">hue</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mf">1.0</span><span class="p">;</span> <span class="n">hue</span> <span class="o">+=</span> <span class="n">INCREMENT</span><span class="p">)</span> <span class="p">{</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="n">UIColor</span> <span class="o">*</span><span class="n">color</span> <span class="o">=</span> <span class="p">[</span><span class="n">UIColor</span> <span class="nl">colorWithHue:</span><span class="n">hue</span>
+</span><span class='line'>                            <span class="nl">saturation:</span><span class="mf">1.0</span>
+</span><span class='line'>                            <span class="nl">brightness:</span><span class="mf">1.0</span>
+</span><span class='line'>                                 <span class="nl">alpha:</span><span class="mf">1.0</span><span class="p">];</span>
+</span><span class='line'><span class="p">[</span><span class="n">colors</span> <span class="nl">addObject:</span><span class="n">color</span><span class="p">];</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 ]]></content>
   </entry>
   

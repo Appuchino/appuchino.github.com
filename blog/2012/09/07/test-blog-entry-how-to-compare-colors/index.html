@@ -106,8 +106,30 @@ $$</p>
 
 <h2>Subtitle 1</h2>
 
-<p>Hey this is another bunch of texh with some code here!
-Liquid error: ClassNotFound: no lexer for alias &#8216;Objective&#8217; found</p>
+<p>Hey this is another bunch of texh with some code here!</p>
+
+<figure class='code'><figcaption><span>Rainbow colors </span><a href='http://stackoverflow.com/questions/9652762/ios-rainbow-colors-array'>From StackOverflow </a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="n">NSMutableArray</span> <span class="o">*</span><span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSMutableArray</span> <span class="n">array</span><span class="p">];</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">float</span> <span class="n">INCREMENT</span> <span class="o">=</span> <span class="mf">0.05</span><span class="p">;</span>
+</span><span class='line'><span class="k">for</span> <span class="p">(</span><span class="kt">float</span> <span class="n">hue</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span> <span class="n">hue</span> <span class="o">&lt;</span> <span class="mf">1.0</span><span class="p">;</span> <span class="n">hue</span> <span class="o">+=</span> <span class="n">INCREMENT</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="n">UIColor</span> <span class="o">*</span><span class="n">color</span> <span class="o">=</span> <span class="p">[</span><span class="n">UIColor</span> <span class="nl">colorWithHue:</span><span class="n">hue</span>
+</span><span class='line'>                                <span class="nl">saturation:</span><span class="mf">1.0</span>
+</span><span class='line'>                                <span class="nl">brightness:</span><span class="mf">1.0</span>
+</span><span class='line'>                                     <span class="nl">alpha:</span><span class="mf">1.0</span><span class="p">];</span>
+</span><span class='line'>    <span class="p">[</span><span class="n">colors</span> <span class="nl">addObject:</span><span class="n">color</span><span class="p">];</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
 </div>
 
 
