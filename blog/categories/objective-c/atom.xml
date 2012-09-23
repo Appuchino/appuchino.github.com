@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Objective-C | Appuchino]]></title>
   <link href="http://Appuchino.github.com/blog/categories/objective-c/atom.xml" rel="self"/>
   <link href="http://Appuchino.github.com/"/>
-  <updated>2012-09-07T18:38:37+01:00</updated>
+  <updated>2012-09-23T02:34:58+01:00</updated>
   <id>http://Appuchino.github.com/</id>
   <author>
     <name><![CDATA[Alexey Rashevskiy]]></name>
@@ -23,14 +23,18 @@
 <p>During my <a href="http://colorificapp.com">Colorific</a> development I found a problem - how to recognize that colors are similar. I've searched stack overflow and found some few algorythms which were useful but were not too helpful.</p>
 
 <p>The very first idea was to measure distance in 3D (r,g,b) space between 2 colors:
-$$
+<script type="math/tex; mode=display">
 \sqrt{(R2 - R1)<sup>{2}</sup> + (G2-G1)<sup>{2}</sup> + (B2 - B1)<sup>{2}}</sup>
-$$</p>
+</script></p>
 
-<p>Drawbacks
-* No alpha support
-* drawback 2
-* drawback 3</p>
+<p>Drawbacks</p>
+
+<ul>
+<li>No alpha support</li>
+<li>drawback 2</li>
+<li>drawback 3</li>
+</ul>
+
 
 <h2>Subtitle 1</h2>
 

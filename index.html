@@ -28,7 +28,9 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
   
 
 </head>
@@ -100,15 +102,21 @@
 
 <p>During my <a href="http://colorificapp.com">Colorific</a> development I found a problem - how to recognize that colors are similar. I&#8217;ve searched stack overflow and found some few algorythms which were useful but were not too helpful.</p>
 
-<p>The very first idea was to measure distance in 3D (r,g,b) space between 2 colors:
-$$
-\sqrt{(R2 - R1)<sup>{2}</sup> + (G2-G1)<sup>{2}</sup> + (B2 - B1)<sup>{2}}</sup>
-$$</p>
+<p>The very first idea was to measure distance in 3D (r,g,b) space between 2 colors:</p>
 
-<p>Drawbacks
-* No alpha support
-* drawback 2
-* drawback 3</p>
+<script type="math/tex; mode=display">
+\sqrt{(R2 - R1)^{2} + (G2-G1)^{2} + (B2 - B1)^{2}}
+</script>
+
+
+<p>Drawbacks</p>
+
+<ul>
+<li>No alpha support</li>
+<li>drawback 2</li>
+<li>drawback 3</li>
+</ul>
+
 
 <h2>Subtitle 1</h2>
 
