@@ -1,0 +1,624 @@
+
+@media screen and (max-width: 500px) {
+
+.no_mobile {
+	display: none;
+}
+
+.only_mobile {
+	display: block;
+}
+
+body {
+	font-size: 4.5vw;
+	line-height: 5.6vw;
+	padding: 0;
+	margin: 0;
+}
+
+*:focus{
+	outline: 0;
+}
+
+div,p,h1,h2,h3,h4,h5,h6,ul,ol,table {
+	margin: 0;
+}
+
+
+h1 {
+	font-size: 8vw;
+	line-height: 9vw;
+}
+
+h2 {
+	font-size: 8vw;
+	line-height: 8.5vw;
+}
+
+/* */
+
+button, a.button {
+	display: inline-block;
+	padding: 3.15vw 6.3vw;
+	border-radius: 1.3vw;
+	border-style: none;
+	font-size: 3.15vw;
+	font-weight: 600;
+}
+
+button.button_transparent, a.button.button_transparent {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000;
+}
+
+/* */
+
+._c {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+	._three_columns {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+		width: 100vw;
+	}
+
+		._controls {
+			position: relative;
+			height: 0;
+			width: 100%;
+			z-index: 9999;
+		}
+
+			._controls ._control {
+				position: absolute;
+				top: 25vw;
+				cursor: pointer;
+			}
+				._controls ._control_left {
+					left: 1vw;
+				}
+				._controls ._control_right {
+					right: 1vw;
+				}
+
+				._controls ._control img {
+					width: 3.7vw;
+				}
+
+	.section_name {
+		font-size: 3.7vw;
+		text-align: center;
+		letter-spacing: .07vw;
+		margin-bottom: 4.6vw;
+	}
+
+	.section_title {
+		text-align: center;
+		width: 95%;
+	}
+
+/* */
+
+.splash header {
+	position: relative;
+	width: 100%;
+	height: 130vw;
+}
+
+	.splash header ._deco {
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		bottom: 0;
+	}
+		.splash header ._deco ._deco_front {
+			position: absolute;
+			bottom: -0.5vw;
+			left: 12.4vw;
+			z-index: 100;
+		}
+			.splash header ._deco ._deco_front img {
+				width: 18.75vw;
+			}
+
+		.splash header ._deco ._deco_bottom {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-image: url('/_html/images/milk-wave.png');
+			background-repeat: no-repeat;
+			background-position: left bottom;
+			background-size: 300%;
+			width: 100%;
+			height: 25vw;
+			z-index: 200;
+		}
+
+	.splash header .logo {
+		position: absolute;
+		top: 5.7vw;
+		left: 7.1vw;
+		width: 33.3%;
+	}
+
+		.splash header .logo img {
+			display: block;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+
+	.splash header .codex {
+		width: 93%;
+		margin: 0 auto;
+		padding-top: 27vw;
+		text-align: center;
+	}
+		.splash header .codex h1 {
+		}
+
+	.splash header .actions {
+		text-align: center;
+		margin-top: 9vw;
+	}
+
+	.splash header .button {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 4.3vw;
+		display: block;
+
+	}
+
+	.splash header .menu_burger {
+		display: block;
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		right: 8.5vw;
+		top: 8.5vw;
+	}
+		.splash header .menu_burger img {
+			cursor: pointer;
+			width: 7vw;
+		}
+
+	.splash header ul.mainmenu {
+		display: none;
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		right: 0;
+		top: 3.5vw;
+		font-size: 0.875vw;
+	}
+
+		.splash header ul.mainmenu li {
+			display: block;
+			float: left;
+			margin-right: 2vw;
+		}
+			.splash header ul.mainmenu li:last-child {
+				margin-right: 0;
+			}
+
+	header ul.mainmenu.mobilemenu {
+		display: block;
+		position: absolute;
+		width: 90%;
+		top: 22vw;
+		left: 5%;
+		background-color: white;
+		box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+		border-radius: 2vw;
+	}
+
+		header ul.mainmenu.mobilemenu li {
+			display: block;
+			text-align: center;
+			float: none;
+			clear: both;
+			margin: 0;
+			border-width: 0 0 1px;
+			border-style: solid;
+			border-color: #e5e5e5;
+		}
+			header ul.mainmenu.mobilemenu li:last-child {
+				border-style: none;
+			}
+
+		header ul.mainmenu.mobilemenu li a {
+			display: block;
+			width: 100%;
+			font-size: 4.5vw;
+			line-height: 5.6vw;
+			font-weight: 600;
+			padding: 4vw 0;
+		}
+
+main {
+}
+
+.slide_services {
+	padding-top: 5vw;
+}
+
+	.slide_services ._c {
+		border-style: solid;
+		border-width: 0 0 1px;
+		border-color: #e5e5e5;
+		margin-bottom: 13vw;
+		padding-bottom: 13vw;
+	}
+
+	.slide_services ._three_columns {
+		width: auto;
+	}
+
+	.slide_services .service {
+		text-align: center;
+	}
+
+		.slide_services .service h2 {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.slide_services .service .divider {
+			display: block;
+			margin: 3.15vw auto 3.15vw;
+			width: 3.15vw;
+		}
+
+		.slide_services .service p {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.slide_services .service .actions {
+			margin-top: 11vw;
+		}
+
+
+.slide_recipe {
+	padding-bottom: 11vw;
+}
+
+	.slide_recipe .steps {
+		background-image: url('/_html/images/vertical.png');
+		background-repeat: repeat-y;
+		background-position: center;
+		margin: 4.375vw 0 7.4vw;
+	}
+
+		.slide_recipe .step {
+			clear: both;
+		}
+
+			.slide_recipe .step .picture {
+				float: none;
+				width: 100%;
+				margin-bottom: 3.75vw;
+				background-color: #fff;
+				padding-top: 2.8vw;
+			}
+
+				.slide_recipe .step .picture img {
+					display: block;
+					width: 36.5vw;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			.slide_recipe .step .title {
+				position: relative;
+				margin: 0 auto;
+				font-size: 7.5vw;
+				line-height: 8.5vw;
+				text-align: center;
+				background-color: white;
+				padding-bottom: 2.8vw;
+			}
+
+				.slide_recipe .step .title .bullet {
+					position: absolute;
+					width: 5vw;
+					top: -6vw;
+					left: calc(50% - 2.5vw);
+					padding: 0;
+					background-color: white;
+					border-radius: 3.9vw;
+				}
+					.slide_recipe .step:first-child .title .bullet {
+						padding-top: 0;
+						top: -7.8vw;
+					}
+
+					.slide_recipe .step .title .bullet img {
+						display: block;
+						width: 100%;
+						margin: 0;
+					}
+
+			.slide_recipe .step .more {
+				margin: 0 5% 11.2vw;
+				color: #9c9c9c;
+				background-color: white;
+				padding-bottom: 2.8vw;
+			}
+
+	.slide_recipe .recipe_summary {
+		font-size: 5.7vw;
+		line-height: 7.4vw;
+		text-align: center;
+		width: 90%;
+		margin: auto;
+	}
+
+		.slide_recipe .recipe_summary img {
+			display: block;
+			width: 10.8vw;
+			margin: 0 auto 7.4vw;
+		}
+
+
+.slide_clients {
+}
+
+	.slide_clients ._c {
+		width: 92vw;
+		margin: auto;
+		padding-top: 15vw;
+	}
+
+	.slide_clients .section_name {
+	}
+
+		.slide_clients .section_name img {
+			display: block;
+			width: 8vw;
+			margin: 0 auto 2vw;
+		}
+
+	.slide_clients .section_title {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+
+	.slide_clients .works_link  {
+		text-align: center;
+		margin: 8.5vw auto 11.5vw;
+		font-size: 4.5vw;
+		line-height: 6vw;
+	}
+
+		.slide_clients .works_link a {
+			text-decoration: none;
+		}
+		.slide_clients .works_link a:hover {
+			text-decoration: underline;
+		}
+
+	.slide_clients ul.clients {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+		.slide_clients ul.clients li {
+			float: left;
+			width: calc(46vw - 1px);
+			height: calc(46vw - 1px);
+			border-width: 1px 1px 0 0;
+			position: relative;
+		}
+			.slide_clients ul.clients li:last-child {
+				border-right: 0;
+			}
+
+			.slide_clients ul.clients li .logo {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0; left: 0;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+
+
+
+.slide_responses {
+	padding: 13vw 0;
+}
+
+	.slide_responses div.responses {
+	}
+
+		.slide_responses ul.responses {
+			list-style-type: none;
+			margin: 1.75vw 0 0;
+			padding: 0;
+		}
+			.slide_responses ul.responses li {
+				display: block;
+				text-align: center;
+			}
+
+				.slide_responses ul.responses .foto {
+					display: block;
+					margin: 0 auto;
+				}
+				.slide_responses ul.responses .name {
+					display: block;
+					margin: 1vw auto 2vw;
+					font-size: 8vw;
+					line-height: 8vw;
+					width: 80%;
+				}
+				.slide_responses ul.responses .occupation {
+					display: block;
+					margin: 0 auto;
+					font-size: 4.5vw;
+					line-height: 5.7vw;
+					width: 80%;
+				}
+				.slide_responses ul.responses blockquote {
+					display: block;
+					margin: 5.7vw auto;
+					width: 80%;
+				}
+
+
+.slide_action_splash {
+}
+
+	.slide_action_splash ._c {
+		background-color: #3d4042;
+		background-image: url('/_html/images/bottom-actions-bg.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8.5vw 0;
+		height: auto;
+		width: 92vw;
+		margin: auto;
+	}
+
+	.slide_action_splash .action {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.slide_action_splash .content {
+		margin-right: 0;
+		margin-left: 0;
+		text-align: center;
+		font-size: 8vw;
+		line-height: 10vw;
+		margin-bottom: 6vw;
+	}
+
+		.slide_action_splash .content img {
+			display: block;
+			margin: 0 auto 3vw;
+			width: 8.5vw;
+		}
+
+
+footer {
+	margin: 2.5vw 0 0;
+	padding-top: 8.5vw;
+	height: auto;
+	font-size: 4vw;
+	line-height: 4.8vw;
+}
+
+	footer ._c {
+		position: relative;
+		width: 92vw;
+		margin: auto;
+	}
+
+	footer ._c:first-child {
+		border-width: 0 0 1px;
+		border-style: solid;
+	}
+
+	footer .logo {
+		padding-top: 1.5vw;
+		left: 0;
+		margin-bottom: 2vw;
+	}
+		footer .logo img {
+			opacity: .3;
+			width: 8.75vw;
+		}
+
+
+	footer ul.mainmenu {
+		display: block;
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		font-weight: 700;
+		font-size: 3.4vw;
+		border-width: 0 0 1px;
+		border-style: solid;
+		border-color: #343334;
+	}
+
+		footer ul.mainmenu li {
+			display: block;
+			float: left;
+			margin-right: 5vw;
+			margin-left: 5vw;
+			margin-bottom: 5vw;
+			text-transform: uppercase;
+		}
+			footer ul.mainmenu li a {
+				color: inherit;
+				text-decoration: none;
+			}
+
+	footer .social {
+		position: static;
+		float: right;
+		width: calc(50% - 2vw);
+		margin-right: 2vw;
+		text-align: right;
+	}
+
+		footer .social a {
+			margin: 5vw .5vw 0 0;
+			padding: 0;
+			display: inline-block;
+			border: 1px solid #343334;
+			border-radius: 2px;
+		}
+
+		footer .social a img {
+			display: block;
+			margin: 0;
+			padding: 0;
+			width: 8vw;
+			height: 8vw;
+		}
+
+	footer .contacts {
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+		margin-left: 5vw;
+		margin-right: 50%;
+		position: static;
+		width: auto;
+		text-align: left;
+	}
+
+	footer .copyrights {
+		margin-left: 5vw;
+		padding-top: 0;
+		margin-top: 5vw;
+		margin-bottom: 3vw;
+	}
+
+	footer .credits {
+		margin-left: 5vw;
+		position: static;
+		width: auto;
+		margin-top: 0;
+		padding-bottom: 5vw;
+	}
+
+
+}
