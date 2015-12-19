@@ -87,7 +87,7 @@ button, a.button {
 }
 
 		.splash header ._deco ._deco_bottom {
-			background-image: url('/_html/images/milk-wave.png');
+			background-image: url('../images/milk-wave.png');
 			background-position: left bottom;
 			background-size: 300%;
 			height: 25vw;
@@ -464,7 +464,7 @@ footer {
 /* cases */
 
 	.case header ._deco ._deco_bottom {
-		background-image: url('/_html/images/milk-wave.png');
+		background-image: url('../images/milk-wave.png');
 		background-position: left bottom;
 		background-size: 300%;
 		height: 25vw;
@@ -481,7 +481,7 @@ footer {
 			top: 110vw;
 			left: 0;
 			width: 100%;
-			background-image: url('/_html/images/cases/fithit/phone-shadow.png');
+			background-image: url('../images/cases/fithit/phone-shadow.png');
 			background-repeat: no-repeat;
 			background-position: top left;
 			background-size: 113%;
