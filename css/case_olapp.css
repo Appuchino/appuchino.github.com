@@ -1,0 +1,220 @@
+.case.olapp header {
+	background-color: #2d303f;
+	height: 50vw;
+	margin-bottom: 16vw;
+	background-image: url('../images/cases/olapp/head-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow: visible;
+}
+
+.case.olapp header .case_intro .case_description h1 {
+}
+.case.olapp header .case_intro .case_description .icon {
+	width: 7.25vw;
+	position: relative;
+}
+
+	.case.olapp .feature.feature_smart {
+		height: 47vw;
+		background-color: #43352c;
+		background-image: url('../images/cases/olapp/summary-bg.jpg');
+		background-size: cover;
+		position: relative;
+		top: 0;
+		margin-bottom: 5vw;
+	}
+
+	.case.olapp .feature.feature_smart ._deco {
+		position: absolute;
+		right: 18vw;
+		top: 10vw;
+	}
+		.case.olapp .feature.feature_smart ._deco img {
+			width: 31.25vw;
+		}
+
+		.case.olapp .feature.feature_smart .description {
+			padding-top: 10vw;
+		}
+
+	.case.flipdish header .case_intro .case_appstore img {
+		margin-top: 16vw;
+		width: 12.5vw;
+	}
+
+
+.case.olapp .section_name {
+		text-align: center;
+	}
+		.case.olapp .section_name img {
+			display: block;
+			width: 1vw;
+			margin: 0 auto 0.875vw;
+		}
+	.case.olapp .section_title {
+		text-align: center;
+		margin: 0 auto 4vw;
+	}
+
+.olapp_ideas {
+}
+
+	.olapp_ideas ._c {
+		margin-bottom: 5vw;
+		padding-bottom: 5vw;
+		border-style: solid;
+		border-width: 0 0 1px;
+		border-color: #e5e5e5;
+	}
+
+	.olapp_ideas ._four_columns {
+		margin-left: 9vw;
+	}
+
+	.olapp_ideas .olapp_idea {
+	}
+
+		.olapp_idea img {
+			width: 7.5vw;
+			margin-bottom: 0.875vw;
+		}
+
+		.olapp_idea h2 {
+			margin-bottom: 0.875vw;
+		}
+
+		.olapp_idea p {
+			color: #9c9c9c;
+			width: 70%;
+		}
+
+.olapp_development {
+	margin-bottom: 5vw;
+}
+
+	.olapp_development .olapp_dev_slide {
+		width: 60vw;
+		margin: 0 auto;
+	}
+
+		.olapp_development .olapp_dev_slide img {
+			width: 60vw;
+		}
+
+		.olapp_development .olapp_dev_slide p {
+			margin: 0.875vw auto 0;
+			text-align: center;
+			color: #9c9c9c;
+		}
+
+
+@media screen and (max-width: 500px) {
+
+	/* olapp */
+	.case.olapp header {
+		height: 200vw;
+		margin-bottom: 100vw;
+	}
+
+	.case.olapp header .case_intro .case_description {
+		padding-top: 28vw;
+	}
+
+	.case.olapp header .case_intro .case_description h1 {
+		font-size: 9.7vw;
+		font-weight: 400;
+		position: relative;
+		left: 0;
+	}
+	.case.olapp header .case_intro .case_description .icon {
+		width: 14.8vw;
+		position: relative;
+		top: 0;
+		left: .5vw;
+		margin-right: 0;
+	}
+
+	.case.olapp header .case_intro .case_description .case_statement {
+		margin-top: 4vw;
+	}
+
+
+		.case.olapp .section_name img {
+			width: 2.8vw;
+			display: block;
+		}
+
+
+	.case.olapp .section_name img {
+		
+	}
+
+	.olapp_ideas ._c {
+		margin-bottom: 12vw;
+		padding-bottom: 12vw;
+	}
+
+	.olapp_ideas ._four_columns {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.olapp_ideas .olapp_idea {
+		text-align: center;
+	}
+
+		.olapp_idea img {
+			width: 30vw;
+			margin-bottom: 3.5vw;
+		}
+
+		.olapp_idea h2 {
+			margin-bottom: 3.5vw;
+		}
+
+		.olapp_idea p {
+			color: #9c9c9c;
+			width: 80vw;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	.case.olapp .feature.feature_smart {
+		color: #fff;
+		height: 110vw;
+		overflow: hidden;
+		background-position: 35%;
+	}
+
+		.case.olapp .feature.feature_smart ._deco {
+			right: -5vw;
+			top: 85vw;
+			z-index: 1;
+		}
+			.case.olapp .feature.feature_smart ._deco img {
+				width: 68vw;
+			}
+
+	.olapp_development {
+		margin-bottom: 12vw;
+	}
+
+		.olapp_development .olapp_dev_slide {
+			width: 80vw;
+			margin: 0 auto;
+		}
+
+			.olapp_development .olapp_dev_slide img {
+				width: 80vw;
+			}
+
+			.olapp_development .olapp_dev_slide p {
+				margin: 0.875vw auto 0;
+				text-align: center;
+				color: #9c9c9c;
+			}
+
+
+}

@@ -1,0 +1,89 @@
+/* flipdish */ 
+.case.flipdish header {
+	background-color: #fa5b5f;
+	height: 50vw;
+	margin-bottom: 16vw;
+	background-image: url('../images/head-net.png'), url('../images/cases/flipdish/head-bg.jpg');
+	background-repeat: repeat, no-repeat;
+	background-position: center, center;
+	background-size: auto, cover;
+	overflow: visible;
+}
+
+.case.flipdish header .case_intro .case_description h1 {
+}
+.case.flipdish header .case_intro .case_description .icon {
+	width: 7.25vw;
+	position: relative;
+}
+
+	.case.flipdish .feature.feature_smart {
+		height: 53vw;
+		background-color: #43352c;
+		background-image: url('../images/cases/flipdish/summary-bg.jpg');
+		background-size: cover;
+	}
+
+	.case.flipdish .feature.feature_smart ._deco {
+		position: absolute;
+		right: 18vw;
+		top: 10vw;
+	}
+		.case.flipdish .feature.feature_smart ._deco img {
+			width: 31.25vw;
+		}
+
+	.case.flipdish header .case_intro .case_appstore img {
+		margin-top: 16vw;
+		width: 12.5vw;
+	}
+
+
+
+@media screen and (max-width: 500px) {
+
+	/* flipdish */
+	.case.flipdish header {
+		height: 200vw;
+		margin-bottom: 100vw;
+	}
+
+	.case.flipdish header .case_intro .case_description {
+		padding-top: 28vw;
+	}
+
+	.case.flipdish header .case_intro .case_description h1 {
+		font-size: 9.7vw;
+		font-weight: 400;
+		position: relative;
+		left: 0;
+	}
+	.case.flipdish header .case_intro .case_description .icon {
+		width: 30vw;
+		position: relative;
+		top: 0;
+		left: .5vw;
+		margin-right: 0;
+	}
+
+	.case.flipdish header .case_intro .case_description .case_statement {
+		margin-top: 4vw;
+	}
+
+
+	.case.flipdish .feature.feature_smart {
+		color: #fff;
+		height: 185vw;
+		overflow: hidden;
+	}
+
+		.case.flipdish .feature.feature_smart ._deco {
+			right: -5vw;
+			top: 85vw;
+			z-index: 1;
+		}
+			.case.flipdish .feature.feature_smart ._deco img {
+				width: 68vw;
+			}
+
+}

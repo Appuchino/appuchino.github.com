@@ -3,10 +3,10 @@
 <head>
 <title>Appuchino.ie</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="css/normalize.min.css"/>
-<link rel="stylesheet" href="css/main.css"/>
-<link rel="stylesheet" href="css/small.css"/>
-<link rel="stylesheet" href="css/swiper.css"/>
+<link rel="stylesheet" href="css/lib/normalize.min.css"/>
+<link rel="stylesheet" href="css/common.css"/>
+<link rel="stylesheet" href="css/about_us.css"/>
+<link rel="stylesheet" href="css/lib/swiper.css"/>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width"/>
 <!--[if lt IE 9]>
@@ -17,18 +17,18 @@
 
 <header>
 	<div class="_c">
-		<div class="logo"><img src="images/vectors/splash/logo.svg" /></div>
+		<div class="logo"><a href="index.html"><img src="images/splash/logo.svg" /></a></div>
 
-		<div class="menu_burger only_mobile"><img src="images/vectors/menu-open.svg" data-open-src="images/vectors/menu-open.svg"  data-closed-src="images/vectors/menu-close.svg" /></div>
+		<div class="menu_burger only_mobile"><img src="images/menu-open.svg" data-open-src="images/menu-open.svg"  data-closed-src="images/menu-close.svg" /></div>
 		<ul class="mainmenu" data-state="closed">
-			<li><a href="">Home</a></li>
-			<li><a href="">Work</a></li>
-			<li><a href="">Company</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio.html">Work</a></li>
+			<li><a href="about_us.html">Company</a></li>
 			<li><a href="">Blog</a></li>
-			<li><a href="">Contacts</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
 		</ul>
 
-		<div class=""><h1>About us</h1></div>
+		<div class="title"><h1>About us</h1></div>
 
 	</div>
 	<div class="_deco">
@@ -84,15 +84,15 @@
 	<div class="_c tasty_action">
 
 		<div class="content only_mobile">
-			<img src="images/vectors/splash/coffee.svg" /> Do you want a tasty app?
+			<img src="images/DO_SOMETHING/splash/coffee.svg" /> Do you want a tasty app?
 		</div>
 
 		<div class="action">
-			<img src="" border=0 alt=""><button class="button button_light">Let's chat</button>
+			<img src="" border=0 alt=""><a href="contacts.html#request" class="button button_light">Let's chat</a>
 		</div>
 
 		<div class="content no_mobile">
-			<img src="images/vectors/splash/coffee.svg" /> Do you want a tasty app?
+			<img src="images/DO_SOMETHING/splash/coffee.svg" /> Do you want a tasty app?
 		</div>
 
 	</div>
@@ -113,8 +113,9 @@
 			<li><a href="">Contacts</a></li>
 		</ul>
 		<div class="social">
-			<a href=""><img src="images/vectors/fb.svg" /></a>
-			<a href=""><img src="images/vectors/twitter.svg" /></a>
+			<a href=""><img src="images/socials/fb.svg" /></a>
+			<a href=""><img src="images/socials/twitter.svg" /></a>
+
 		</div>
 		<div class="contacts">
 			<div class="phone">+353 86 3331223</div>
@@ -129,10 +130,9 @@
 
 </footer>
 
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
-<script type="text/javascript" src="js/pages/common.js"></script>
-<script type="text/javascript" src="js/pages/splash.js"></script>
-
+<script type="text/javascript" src="js/lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/lib/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/about_us.js"></script>
 </body>
 </html>

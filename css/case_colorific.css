@@ -1,0 +1,226 @@
+.case.colorific header {
+	background-color: #2d303f;
+	height: 42vw;
+	margin-bottom: 8vw;
+	background-image: url('../images/cases/colorific/head-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow: visible;
+}
+
+.case.colorific header .case_intro .screenshot {
+	position: absolute;
+	top: 9.25vw;
+	left: 9.75vw;
+	width: 56.25vw;
+	background-image: none;
+}
+	.case.colorific header .case_intro .screenshot .frame {
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+	.case.colorific header .case_intro .screenshot .screen {
+		position: absolute;
+		top: 3.875vw;
+		left: 6vw;
+		width: 39vw;
+		border: .1vw solid rgba(236,236,236,.7);
+	}
+
+.case.colorific header .case_intro .case_description {
+	margin-left: 65vw;
+	padding-top: 11.5vw;
+	margin-right: 10vw;
+}
+
+.case.colorific header .case_intro .case_description h1 {
+}
+	.case.colorific header .case_intro .case_description .icon {
+		width: 4.375vw;
+		position: relative;
+		top: 1.2vw;
+		margin-right: 1.2vw;
+	}
+
+	.case.colorific .feature.feature_smart {
+		height: 40vw;
+		background-color: #85b1cc;
+		background-image: none;
+		position: relative;
+		top: 0;
+		margin-bottom: 5vw;
+	}
+
+	.case.colorific .feature.feature_smart ._deco {
+		position: absolute;
+		right: 18vw;
+		bottom: 0;
+	}
+		.case.colorific .feature.feature_smart ._deco img {
+			display: block;
+			margin: 0;
+			width: 42vw;
+		}
+
+		.case.colorific .feature.feature_smart .description {
+			padding-top: 10vw;
+		}
+
+	.case.colorific .feature.feature_smart .description {
+		padding-top: 6.25vw;
+	}
+
+	.case.flipdish header .case_intro .case_appstore img {
+		margin-top: 16vw;
+		width: 12.5vw;
+	}
+
+
+.case.colorific .section_name {
+		text-align: center;
+	}
+		.case.colorific .section_name img {
+			display: block;
+			width: 1vw;
+			margin: 0 auto 0.875vw;
+		}
+	.case.colorific .section_title {
+		text-align: center;
+		margin: 0 auto 4vw;
+	}
+
+.colorific_achieves {
+}
+
+	.colorific_achieves ._c {
+		margin-bottom: 5vw;
+		padding-bottom: 5vw;
+		border-style: solid;
+		border-width: 0 0 1px;
+		border-color: #e5e5e5;
+	}
+
+	.colorific_achieves ._four_columns {
+		margin-left: 4vw;
+	}
+
+	.colorific_achieves .colorific_achieve {
+		position: relative;
+	}
+
+		.colorific_achieve img {
+			width: 2.25vw;
+			margin: 0;
+			float: left;
+		}
+
+		.colorific_achieve p {
+			margin-left: 3vw;
+			margin-top: .5vw;
+			color: #9c9c9c;
+			width: 65%;
+		}
+
+.colorific_screens {
+	margin-bottom: 5vw;
+}
+
+	.colorific_screens .pad_container {
+		position: relative;
+		min-height: 43vw;
+	}
+
+		.colorific_screens .pad_container ._deco {
+			position: absolute;
+			top: 0;
+			left: 15vw;
+		}
+			.colorific_screens  .pad_container ._deco img {
+				width: 60vw;
+			}
+
+
+		.colorific_screens .pad_container .screens {
+			width: 50vw;
+			padding-top: 2.3vw;
+			margin: 0 auto;
+		}
+			.colorific_screens .colorific_screen {
+			}
+
+				.colorific_screens .colorific_screen img {
+					display: block;
+					width: 50vw;
+					margin: 0;
+				}
+
+
+@media screen and (max-width: 500px) {
+
+	/* colorific */
+	.case.colorific header {
+		height: 160vw;
+		margin-bottom: 20vw;
+	}
+
+
+	.case.colorific header .case_intro .screenshot {
+		position: absolute;
+		top: 100vw;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		background-image: none;
+	}
+		.case.colorific header .case_intro .screenshot .frame {
+			margin: 0;
+			width: 105vw;
+			height: auto;
+		}
+		.case.colorific header .case_intro .screenshot .screen {
+			position: absolute;
+			top: 7.6vw;
+			left: 12vw;
+			width: 72vw;
+			border: .1vw solid rgba(236,236,236,.7);
+		}
+
+	.case.colorific header .case_intro .case_description {
+		margin-left: 5vw;
+		padding-top: 28vw;
+		margin-right: 10vw;
+	}
+
+	.case.colorific header .case_intro .case_description h1 {
+		font-size: 9.7vw;
+		font-weight: 400;
+		position: relative;
+		left: 0;
+	}
+	.case.colorific header .case_intro .case_description .icon {
+		width: 14.8vw;
+		position: relative;
+		top: 4vw;
+		left: 0;
+		margin-right: 2vw;
+	}
+
+	.case.colorific header .case_intro .case_description .case_statement {
+		margin-top: 8vw;
+	}
+
+
+		.case.colorific .section_name img {
+			width: 2.8vw;
+			display: block;
+		}
+
+
+	.case.colorific .section_name img {
+		
+	}
+
+
+}

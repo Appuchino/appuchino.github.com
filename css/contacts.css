@@ -1,0 +1,325 @@
+.contacts header {
+	position: relative;
+	width: 100%;
+	height: 21vw;
+	color: #fff;
+	background-image: url('../images/head-net.png');
+	background-repeat: repeat;
+	background-position: center;
+	background-size: auto;
+	background-color: #d36037;
+	margin-bottom: 1vw;
+}
+
+	.contacts header ._deco ._deco_bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-image: url('../images/milk-wave-2.png');
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: 100%;
+		width: 100%;
+		height: 7vw;
+		z-index: 200;
+	}
+
+	.contacts header .title {
+		padding-top: 8vw;
+	}
+
+		.contacts header .title h1 {
+			margin: 0;
+			text-align: center;
+			font-size: 3.125vw;
+			font-weight: 700;
+		}
+
+.contacts .where_we_are {
+	padding-bottom: 5vw;
+}
+
+	.contacts .where_we_are h2 {
+		font-size: 2.125vw;
+		line-height: 2.5vw;
+		margin-bottom: 2.5vw;
+		margin-left: 15vw;
+	}
+
+		.contacts .where_we_are h2 img {
+			display: block;
+			width: 1.375vw;
+			margin-bottom: .5vw;
+		}
+
+	.contacts .where_we_are div.address {
+		color: #9c9c9c;
+		float: right;
+		width: 40.5vw;
+	}
+		.contacts .where_we_are div.address span {
+			display: block;
+		}
+
+	.contacts .where_we_are div.phone {
+		font-size: 1.75vw;
+		line-height: 2.25vw;
+		margin-right: 45vw;
+		margin-left: 15vw;
+	}
+		.contacts .where_we_are div.phone span {
+			display: block;
+		}
+
+	.contacts .where_we_are div.location {
+		color: #9c9c9c;
+		margin-top: 2.5vw;
+		margin-bottom: 2.5vw;
+		margin-left: 15vw;
+		width: 60vw;
+	}
+
+	.contacts .where_we_are div.action {
+		margin-left: 15vw;
+	}
+
+.contacts .map {
+}
+
+	.contacts .map iframe {
+		width: 100%;
+		height: 40vw;
+	}
+
+
+.contacts .contact_form {
+	padding: 2.875vw 0 1.25vw;
+}
+
+	.contacts .contact_form ._c {
+		color: #fff;
+		background-color: #3d4042;
+		padding: 7.5vw 0 6.5vw;
+	}
+
+		.contacts .contact_form .form {
+			display: block;
+			margin-left: 10vw;
+			margin-right: 10vw;
+		}
+			.contacts .contact_form .form .form_row {
+				margin-bottom: 2vw;
+			}
+
+			.contacts .contact_form .form aside {
+				float: right;
+				width: 34.375vw;
+			}
+
+				.contacts .contact_form .form aside input {
+					width: 100%;
+				}
+
+		.contacts .contact_form form label,
+		.contacts .contact_form form input,
+		.contacts .contact_form form textarea {
+			display: block;
+		}
+
+		.contacts .contact_form form input,
+		.contacts .contact_form form textarea {
+			font-size: 1.375vw;
+			line-height: 1.75vw;
+			font-family: 'Open Sans', Arial, Helvetica, sans;
+			color: #252525;
+			border-style: none;
+		}
+
+		.contacts .contact_form .form textarea {
+			width: 100%;
+			height: 7vw;
+			padding: 1vw 1vw;
+		}
+
+		.contacts .contact_form .form input {
+			width: 32.5vw;
+			height: 3.125vw;
+			padding: 0 1vw;
+		}
+
+		.contacts .contact_form .form label {
+			color: #8cbebc;
+			font-size: 0.875vw;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: .5vw;
+		}
+
+		.contacts .contact_form .form button {
+			display: block;
+			margin-top: 4vw;
+			background-color: #d1603e;
+			color: #fff;
+			padding-left: 2.875vw;
+			padding-right: 2.875vw;
+		}
+
+	.contacts .form .form_error {
+		color: #d1603e;
+		font-size: 0.875vw;
+		font-weight: 400;
+	}
+
+	.contacts .form .error_field {
+		border: #d1603e solid medium;
+	}
+
+	.contacts .form h1 {
+		font-size: 3.125vw;
+		line-height: 4.125vw;
+		font-weight: 400;
+		margin-bottom: 3vw;
+	}
+
+
+
+@media screen and (max-width: 500px) {
+
+	.contacts header {
+		height: 60vw;
+		margin-bottom: 10vw;
+	}
+
+	.contacts header .title {
+		text-align: left;
+		margin-left: 8.5vw;
+		padding-top: 28.5vw;
+	}
+
+		.contacts header .title h1 {
+			text-align: left;
+			font-size: 11.5vw;
+			line-height: 13vw;
+		}
+
+	.contacts .where_we_are h2,
+	.contacts .where_we_are div.address,
+	.contacts .where_we_are div.phone,
+	.contacts .where_we_are div.location,
+	.contacts .where_we_are div.action {
+		margin-left: 8.5vw;
+	}
+		.contacts .where_we_are h2 {
+			font-size: 8vw;
+			line-height: 10vw;
+			color: #2d232c;
+		}
+			.contacts .where_we_are h2 img {
+				width: 6.3vw;
+			}
+
+	.contacts .where_we_are div.phone {
+		font-size: 8vw;
+		line-height: 10vw;
+		margin-bottom: 10vw;
+		width: auto;
+		margin-right: 8vw;
+		color: #565256;
+	}
+
+	.contacts .where_we_are div.address {
+		float: none;
+		width: auto;
+		color: #9c9c9c;
+		font-size: 6.2vw;
+		line-height: 8.5vw;
+		margin-bottom: 3.5vw;
+	}
+
+	.contacts .where_we_are div.location {
+		width: auto;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+		font-size: 4.5vw;
+		line-height: 6vw;
+	}
+
+	.contacts .where_we_are div.action {
+		margin-bottom: 10vw;
+	}
+
+	.contacts .map {
+		margin-left: 2.8vw;
+		margin-right: 2.8vw;
+	}
+
+	.contacts .contact_form {
+		margin-left: 2.8vw;
+		margin-right: 2.8vw;
+	}
+
+		.contacts .contact_form h1 {
+			text-align: center;
+			font-size: 8vw;
+			line-height: 10vw;
+		}
+
+		.contacts .contact_form .form {
+			width: auto;
+			margin-left: 5.7vw;
+			margin-right: 5.7vw;
+		}
+			.contacts .contact_form .form .form_row {
+				margin-bottom: 4vw;
+			}
+
+			.contacts .contact_form .form aside {
+				float: none;
+				width: 100%;
+				margin-bottom: 4vw;
+			}
+
+			.contacts .contact_form .form input,
+			.contacts .contact_form .form textarea {
+				display: block;
+				font-size: 4.57vw;
+				line-height: 8vw;
+				border-radius: 1.5vw;
+			}
+
+			.contacts .contact_form .form textarea {
+				width: 100%;
+				height: 31vw;
+				padding: 0;
+			}
+
+			.contacts .contact_form .form input {
+				width: 100%;
+				height: 11.4vw;
+				padding: 0;
+			}
+
+			.contacts .contact_form .form label {
+				color: #8cbebc;
+				font-size: 3.7vw;
+				text-transform: uppercase;
+				font-weight: 600;
+				margin-bottom: 2vw;
+			}
+
+			.contacts .contact_form form button {
+				margin-top: 9vw;
+				margin-left: auto;
+				margin-right: auto;
+				padding-left: 9vw;
+				padding-right: 9vw;
+				font-size: 4vw;
+			}
+
+	.contacts .form .form_error {
+		color: #d1603e;
+		font-size: 3.7vw;
+		font-weight: 400;
+	}
+
+}

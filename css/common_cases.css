@@ -1,0 +1,400 @@
+.case header {
+	position: relative;
+	width: 100%;
+	height: 49vw;
+	color: #fff;
+	background-image: url('../images/head-net.png');
+	background-repeat: repeat;
+	background-position: center;
+	background-size: auto;
+	margin-bottom: 16vw;
+}
+
+	.case header ._c{
+		z-index: 500;
+	}
+
+	.case header ._deco ._deco_bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-image: url('../images/milk-wave-2.png');
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: 100%;
+		width: 100%;
+		height: 7vw;
+		z-index: 200;
+	}
+
+	.case header .case_intro {
+		position: relative;
+		z-index: 300;
+	}
+
+		.case header .case_intro .screenshot {
+			position: absolute;
+			top: 12vw;
+			left: 19vw;
+			width: 31.25vw;
+			background-image: url('../images/cases/fithit/phone-shadow.png');
+			background-repeat: no-repeat;
+			background-position: top left;
+			background-size: cover;
+		}
+
+			.case header .case_intro .screenshot .frame {
+				margin-top: 1.25vw;
+				margin-left: 2.3125vw;
+				margin-bottom: 7vw;
+				width: 23vw;
+				height: 46.875vw;
+			}
+			.case header .case_intro .screenshot .screen {
+				position: absolute;
+				top: calc(5.625vw + 1.1875vw);
+				left: calc(2vw + 2.3125vw);
+				width: 18.77vw;
+			}
+
+		.case header .case_intro .case_description {
+			margin-left: 55vw;
+			padding-top: 13.5vw;
+			margin-right: 20vw;
+		}
+
+			.case header .case_intro .case_description h1 {
+				font-size: 3.125vw;
+				font-weight: 400;
+			}
+
+			.case header .case_intro .case_description .case_statement {
+				clear: left;
+				font-size: 2.5vw;
+				line-height: 2.875vw;
+				margin-top: 2.875vw;
+				margin-bottom: 1.375vw;
+				font-weight: 400;
+			}
+
+			.case header .case_intro .case_description p {
+				color: #e8e8e7;
+			}
+
+	.case header .case_intro .case_appstore img {
+		margin-top: 10vw;
+		width: 12.5vw;
+	}
+
+.case main {
+	position: relative;
+}
+
+.case .section_name {
+	margin: 0;
+	text-align: left;
+}
+
+.case h2 {
+	font-size: 2.125vw;
+	line-height: 2.5vw;
+	margin-bottom: 2vw;
+}
+
+.case .feature {
+	clear: both;
+	position: relative;
+	z-index: 400;
+}
+
+	.feature.feature .description {
+		padding-top: 8vw;
+	}
+
+		.feature.feature .description p {
+			color: #9c9c9c;
+		}
+
+	.case .feature_1._c {
+		border-color: #e5e5e5;
+		border-width: 0 0 1px;
+		border-style: solid;
+		padding-bottom: 5vw;
+		margin-bottom: 5vw;
+	}
+
+	.feature .screenshot {
+		position: relative;
+	}
+
+		.feature .screenshot .frame {
+			width: 20vw;
+		}
+		.feature .screenshot .screen {
+			position: absolute;
+			top: calc(5vw);
+			left: calc(1.5vw);
+			width: 17vw;
+		}
+
+	.feature .divider {
+		display: block;
+		margin-top: 1vw;
+		margin-bottom: 1.5vw;
+		width: 1vw;
+	}
+
+	.feature.feature_right {
+	}
+
+		.feature.feature_right .screenshot {
+			float: right;
+			width: 40vw;
+		}
+
+		.feature.feature_right .description {
+			margin-right: 50vw;
+			margin-left: 18.75vw;
+		}
+
+	.feature.feature_left {
+	}
+
+		.feature.feature_left .screenshot {
+			float: left;
+			width: calc(50vw - 18.75vw + 1.5vw);
+			margin-left: calc(18.75vw - 1.5vw);
+		}
+
+		.feature.feature_left .description {
+			margin-left: 50vw;
+			margin-right: 18.75vw;
+		}
+
+	.feature.feature_smart {
+		position: relative;
+		top: -12.5vw;
+		margin-bottom: -7.5vw;
+		z-index: 200;
+		color: #fff;
+		height: 60vw;
+
+	}
+
+		.feature.feature_smart .description {
+			margin-right: 54vw;
+			margin-left: 18.75vw;
+			padding-top: 17.5vw;
+		}
+
+			.feature.feature_smart .description p {
+				color: inherit;
+			}
+
+		.feature.feature_smart .actions {
+			margin-top: 2vw;
+		}
+
+@media screen and (max-width: 500px) {
+
+
+/* cases */
+
+	.case header ._deco ._deco_bottom {
+		background-image: url('../images/milk-wave.png');
+		background-position: left bottom;
+		background-size: 300%;
+		height: 25vw;
+	}
+
+
+	.case header .case_intro {
+		position: relative;
+		z-index: 300;
+	}
+
+		.case header .case_intro .screenshot {
+			position: absolute;
+			top: 110vw;
+			left: 0;
+			width: 100%;
+			background-image: url('../images/cases/fithit/phone-shadow.png');
+			background-repeat: no-repeat;
+			background-position: top left;
+			background-size: 113%;
+		}
+
+			.case header .case_intro .screenshot .frame {
+				display: block;
+				margin: 0 0 20vw 8vw;
+				width: 80vw;
+				height: 170vw;
+			}
+			.case header .case_intro .screenshot .screen {
+				position: absolute;
+				display: block;
+				top: 20vw;
+				left: 15vw;
+				width: 65vw;
+			}
+
+		.case header .case_intro .case_description {
+			margin-left: 8.5vw;
+			padding-top: 30vw;
+			margin-right: 10vw;
+		}
+
+			.case header .case_intro .case_description h1 {
+				font-size: 9.7vw;
+				font-weight: 400;
+				position: relative;
+				left: -2vw;
+			}
+				.case header .case_intro .case_description .icon {
+					width: 14.8vw;
+					position: relative;
+					top: 4vw;
+					margin-right: 3vw;
+				}
+
+			.case header .case_intro .case_description .case_statement {
+				clear: left;
+				font-size: 8vw;
+				line-height: 9vw;
+				margin-top: 8.5vw;
+				margin-bottom: 5.5vw;
+				font-weight: 400;
+			}
+
+	.case header .case_intro .case_appstore img {
+		margin-top: 10vw;
+		width: 12.5vw;
+	}
+
+	.case main {
+		position: relative;
+	}
+
+	.case .section_name {
+		margin: 0 0 3.14vw;
+		text-align: left;
+		font-size: 3.14vw;
+	}
+
+	.case h2 {
+		font-size: 6.2vw;
+		line-height: 7vw;
+		margin-bottom: 6vw;
+	}
+
+	.case .feature {
+		clear: both;
+		position: relative;
+		z-index: 400;
+		font-size: 3.14vw;
+		line-height: 4.28vw;
+	}
+
+		.case .feature ._c {
+			width: 90vw;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.feature.feature .description {
+			padding-top: 0;
+		}
+
+		.case .feature_1._c {
+			border-color: #e5e5e5;
+			border-width: 0 0 1px;
+			border-style: solid;
+			padding-bottom: 10vw;
+			margin-bottom: 10vw;
+		}
+
+		.feature .screenshot {
+			position: relative;
+		}
+
+			.feature .screenshot .frame {
+				display: none;
+			}
+			.feature .screenshot .screen {
+				position: static;
+				top: 0;
+				left: 0;
+				width: 40vw;
+			}
+
+		.feature .divider {
+			display: block;
+			margin-top: 2.8vw;
+			margin-bottom: 4.2vw;
+			width: 2.8vw;
+		}
+
+		.feature.feature_right {
+		}
+
+			.feature.feature_right .screenshot {
+				float: right;
+				width: 40vw;
+			}
+
+			.feature.feature_right .description {
+				margin-right: 46vw;
+				margin-left: 2.5vw;
+			}
+
+		.feature.feature_left {
+		}
+
+			.feature.feature_left .screenshot {
+				float: left;
+				width: 40vw;
+				margin-left: 0;
+			}
+
+			.feature.feature_left .description {
+				margin-left: 50vw;
+				margin-right: 5vw;
+			}
+
+		.feature.feature_smart {
+			position: relative;
+			top: 0;
+			margin-top: 10vw;
+			margin-bottom: 5vw;
+			z-index: 200;
+			color: #fff;
+			overflow: hidden;
+		}
+
+			.feature.feature_smart ._deco {
+				position: absolute;
+				z-index: 1;
+			}
+				.feature.feature_smart ._deco img {
+				}
+
+			.feature.feature_smart .description {
+				position: relative;
+				margin-right: 5vw;
+				margin-left: 5vw;
+				padding-top: 12vw;
+				z-index: 100;
+			}
+
+				.feature.feature_smart .description p {
+					font-size: 4vw;
+					line-height: 5.43vw;
+					color: inherit;
+				}
+
+			.feature.feature_smart .actions {
+				margin-top: 14vw;
+			}
+
+
+}

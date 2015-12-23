@@ -1,0 +1,74 @@
+/* fithit */ 
+.case.fithit header {
+	background-color: #20a0dc;
+	height: 49vw;
+	margin-bottom: 16vw;
+}
+
+.case.fithit header .case_intro .case_description h1 {
+	position: relative;
+	left: -1vw;
+}
+.case.fithit header .case_intro .case_description .icon {
+	width: 5.625vw;
+	position: relative;
+	top: 1.5vw;
+	margin-right: 1vw;
+}
+
+	.case.fithit .feature.feature_smart {
+		background-color: #47bbf6;
+		background: linear-gradient(to bottom, #38aef4, #66cbf8);
+	}
+
+	.case.fithit .feature.feature_smart ._deco {
+		position: absolute;
+		right: 0;
+		top: 10vw;
+	}
+		.case.fithit .feature.feature_smart ._deco img {
+			width: 57.25vw;
+		}
+
+
+@media screen and (max-width: 500px) {
+
+	/* fithit */
+	.case.fithit header {
+		height: 200vw;
+		margin-bottom: 115vw;
+	}
+
+	.case.fithit header .case_intro .case_description h1 {
+		font-size: 9.7vw;
+		font-weight: 400;
+		position: relative;
+		left: -2vw;
+	}
+	.case.fithit header .case_intro .case_description .icon {
+		width: 14.8vw;
+		position: relative;
+		top: 4vw;
+		margin-right: 3vw;
+	}
+
+
+	.case.fithit .feature.feature_smart {
+		color: #fff;
+		height: 185vw;
+		background-color: #47bbf6;
+		background: linear-gradient(to bottom, #38aef4, #66cbf8);
+		overflow: hidden;
+	}
+
+		.case.fithit .feature.feature_smart ._deco {
+			right: -30vw;
+			top: 75vw;
+			z-index: 1;
+		}
+			.case.fithit .feature.feature_smart ._deco img {
+				width: 132vw;
+			}
+
+
+}

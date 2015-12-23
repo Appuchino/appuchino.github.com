@@ -26,3 +26,21 @@ function objToString (obj) {
     }
     return str;
 }
+
+function isNumber(n) {
+	return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+function isEmpty(obj) {
+	for(var prop in obj) {
+		if(obj.hasOwnProperty(prop))
+			return false;
+	}
+
+	return true;
+}
+
+function validateEmail(email) {
+var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+return re.test(email);
+}
