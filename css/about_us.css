@@ -15,10 +15,10 @@
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		background-image: url('../images/milk-wave-2.png');
+		background-image: url('../images/milk-wave.svg');
 		background-repeat: no-repeat;
 		background-position: bottom;
-		background-size: 100%;
+		background-size: 110%;
 		width: 100%;
 		height: 7vw;
 		z-index: 200;
@@ -35,3 +35,175 @@
 			font-weight: 700;
 		}
 
+
+.about_us .about_us_persons {
+
+}
+
+	.about_us .about_us_persons ._c {
+		margin-bottom: 4vw;
+		padding-bottom: 4vw;
+		padding-top: 4vw;
+		border-style: solid;
+		border-width: 0 0 1px;
+		border-color: #e5e5e5;
+	}
+
+	.about_us .persons_list {
+		text-align: center;
+	}
+
+		.about_us .persons_list .person {
+			display: inline-block;
+			height: 27.5vw;
+			/*float: left;*/
+			width: 32%;
+			margin-bottom: 0;
+			vertical-align: top;
+		}
+
+			.about_us .persons_list .foto {
+				display: block;
+				margin: 0 auto;
+			}
+				.about_us .persons_list .foto img {
+					height: 8.75vw;
+				}
+
+			.about_us .persons_list .name {
+				display: block;
+				margin: .9vw auto .35vw;
+				color: #2d232c;
+				font-size: 2.125vw;
+				width: 85%;
+			}
+			.about_us .persons_list .occupation {
+				display: block;
+				margin: 0 auto;
+				color: #9c9c9c;
+				font-size: 1.125vw;
+				width: 85%;
+			}
+
+			.about_us .persons_list .about {
+				display: block;
+				margin: 1.375vw auto;
+				color: #9c9c9c;
+				width: 85%;
+			}
+
+
+.about_us_info {
+
+}
+
+	.about_us_info .content {
+		margin: 0 10vw 1vw 15vw;
+		width: auto;
+	}
+
+		.about_us_info .section_name {
+			text-align: left;
+		}
+
+		.about_us_info .content .info {
+			margin-bottom: 5vw;
+		}
+			.about_us_info .content .info_right {
+				float: right;
+				width: 30vw;
+			}
+			.about_us_info .content .info_left {
+				margin-right: 34vw;
+			}
+
+			.about_us_info .info p {
+				color: #9c9c9c;
+				margin-bottom: 1.25vw;
+			}
+
+			.about_us_info .info h2 {
+				margin-bottom: 2vw;
+			}
+
+			.about_us_info .info .read_more {
+				margin-top: 2vw;
+			}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+	.about_us header {
+		height: 60vw;
+		margin-bottom: 10vw;
+	}
+
+	.about_us header .title {
+		text-align: left;
+		margin-left: 8.5vw;
+		padding-top: 28.5vw;
+	}
+
+		.about_us header .title h1 {
+			text-align: left;
+			font-size: 11.5vw;
+			line-height: 13vw;
+		}
+
+
+	.about_us .persons_list .person {
+		display: block;
+		height: auto;
+		width: 90%;
+		margin: 0 auto 10vw;
+	}
+
+		.about_us .persons_list .foto {
+			display: block;
+			margin: 0 auto;
+		}
+			.about_us .persons_list .foto img {
+				height: 36vw;
+			}
+
+		.about_us .persons_list .name {
+			margin: 3vw auto 1.5vw;
+			color: #2d232c;
+			font-size: 6vw;
+			line-height: 7vw;
+		}
+		.about_us .persons_list .occupation {
+			font-size: 4vw;
+			line-height: 5vw;
+		}
+
+		.about_us .persons_list .about {
+			margin: 3vw auto;
+		}
+
+	.about_us_info .content {
+		margin: 0 5vw 1vw 5vw;
+		width: auto;
+	}
+
+		.about_us_info .section_name {
+			text-align: center;
+		}
+
+		.about_us_info .content .info {
+			margin-bottom: 13vw;
+		}
+			.about_us_info .content h2 {
+				text-align: center;
+				margin-bottom: 8vw;
+			}
+			.about_us_info .content .info_right {
+				float: none;
+				width: 100%;
+			}
+			.about_us_info .content .info_left {
+				margin-right: 0;
+			}
+}

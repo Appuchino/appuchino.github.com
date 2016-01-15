@@ -23,8 +23,8 @@ $(function() {
 		simulateTouch : false,
 		slideClass: 'colorific_screen',
 		wrapperClass: 'screens_wrapper',
-		nextButton: '.screens.swiper-container ._control_left',
-		prevButton: '.screens.swiper-container ._control_right'
+		nextButton: '.pad_container ._control_left',
+		prevButton: '.pad_container ._control_right'
 	});
 
 });

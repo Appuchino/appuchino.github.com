@@ -2,10 +2,10 @@
 	background-color: #2d303f;
 	height: 50vw;
 	margin-bottom: 16vw;
-	background-image: url('../images/cases/olapp/head-bg.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-image: url('../images/head-net.png'), url('../images/cases/olapp/head-bg-2.jpg');
+	background-repeat: repeat, no-repeat;
+	background-position: center, center;
+	background-size: auto, cover;
 	overflow: visible;
 }
 

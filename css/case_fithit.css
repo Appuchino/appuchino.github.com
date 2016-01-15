@@ -3,6 +3,10 @@
 	background-color: #20a0dc;
 	height: 49vw;
 	margin-bottom: 16vw;
+	background-image: url('../images/head-net.png'), url('../images/cases/fithit/head-bg.jpg');
+	background-repeat: repeat, no-repeat;
+	background-position: center, center;
+	background-size: auto, cover;
 }
 
 .case.fithit header .case_intro .case_description h1 {

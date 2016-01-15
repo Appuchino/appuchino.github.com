@@ -157,6 +157,15 @@
 				}
 
 
+		.colorific_screens .pad_container ._control._control_left {
+			right: 10vw;
+		}
+
+		.colorific_screens .pad_container ._control._control_right {
+			left: 10vw;
+		}
+
+
 @media screen and (max-width: 500px) {
 
 	/* colorific */
