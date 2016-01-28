@@ -95,12 +95,12 @@
 }
 
 	.olapp_development .olapp_dev_slide {
-		width: 60vw;
-		margin: 0 auto;
 	}
 
 		.olapp_development .olapp_dev_slide img {
+			display: block;
 			width: 60vw;
+			margin: 0 auto 1vw;
 		}
 
 		.olapp_development .olapp_dev_slide p {

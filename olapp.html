@@ -38,7 +38,10 @@
 
 		<div class="screenshot">
 			<img class="frame" src="images/cases/olapp/phone-big-white.png" />
-			<img class="screen" src="images/cases/olapp/screenshot-00.png" />
+			<video class="screen" preload="" poster="images/cases/olapp/poster@2x.jpg" id="js-video" autoplay loop>
+				<source src="https://s3-eu-west-1.amazonaws.com/video.olapp.co/OlAppDemo720.mov" type="video/mp4">
+			</video>
+			<!-- <img class="screen" src="images/cases/olapp/poster.jpg" srcset="images/cases/olapp/poster@2x.jpg"/> -->
 		</div>
 
 		<div class="case_description">
@@ -108,16 +111,41 @@
 
 		<div class="section_title _column_wide"><h2>Working on app identity</h2></div>
 
-		<div class="_one_column clearfix">
+		<div class="process_steps swiper-container _one_column clearfix">
 			<div class="_control _control_left swiper-button-next"><img src="images/rarr.svg" /></div>
 			<div class="_control _control_right swiper-button-prev"><img src="images/larr.svg" /></div>
 
-			<div class="_columns swiper-wrapper" data-current-state="2">
+			<div class="_columns swiper-wrapper">
 				<div class="_column olapp_dev_slide swiper-slide">
-					<img src="images/cases/olapp/design-process-00.jpg"/>
-					<p>Initial Concepts</p>
+					<img src="images/cases/olapp/process/1-sketches.png"/>
+					<p>Sketches</p>
+				</div>
+				<div class="_column olapp_dev_slide swiper-slide">
+					<img src="images/cases/olapp/process/2-first prototype.png"/>
+					<p>First prototype</p>
+				</div>
+				<div class="_column olapp_dev_slide swiper-slide">
+					<img src="images/cases/olapp/process/3-choosing design direction.png"/>
+					<p>Choosing design direction</p>
+				</div>
+				<div class="_column olapp_dev_slide swiper-slide">
+					<img src="images/cases/olapp/process/4-final UI.png"/>
+					<p>Final UI</p>
+				</div>
+				<div class="_column olapp_dev_slide swiper-slide">
+					<img src="images/cases/olapp/process/5-itinial logo concepts.jpg"/>
+					<p>Initial logo concepts</p>
+				</div>
+				<div class="_column olapp_dev_slide swiper-slide">
+					<img src="images/cases/olapp/process/6-logo development.png"/>
+					<p>Logo development</p>
+				</div>
+				<div class="_column olapp_dev_slide swiper-slide">
+					<img src="images/cases/olapp/process/7-final logo.png"/>
+					<p>Final logo</p>
 				</div>
 			</div>
+
 		</div>
 
 		<div class="_only_mobile _column_wide">
@@ -142,13 +170,16 @@
 </section>
 
 <section class="more_apps">
-	<div class="_three_columns clearfix">
+	<div class="_c _three_columns clearfix">
 			<div class="_columns">
 				<div class="_column app">
+					<a href="colorific.html"><img src="images/cases/common/Colorific_2_470px.png" srcset="images/cases/common/Colorific_2_940px.png" alt="Colorific"><div class="hover">See the case</div></a>
 				</div>
 				<div class="_column app">
+					<a href="flipdish.html"><img src="images/cases/common/Flip_470px.png" srcset="images/cases/common/Flip_940px.png" alt="Flipdish"><div class="hover">See the case</div></a>
 				</div>
 				<div class="_column app">
+					<a href="fithit.html"><img src="images/cases/common/FIT_470px.png" srcset="images/cases/common/FIT_940px.png" alt="Fithit"><div class="hover">See the case</div></a>
 				</div>
 			</div>
 		</div>
@@ -192,14 +223,14 @@
 			<a href="https://twitter.com/appuchino" target="_blank"><img src="images/socials/twitter.svg" /></a>
 		</div>
 		<div class="contacts">
-			<div class="phone">+353 86 3331223</div>
+			<div class="phone"><a href="tel:+353864170877">+353 86 4170877</a></div>
 			<div class="email"><a href="mailto:hello@appuchino.ie">hello@appuchino.ie</a></div>
 		</div>
 	</div>
 
 	<div class="_c">
 		<div class="copyrights">&copy; Appuchino, all rights reserved.</div>
-		<div class="credits">Made by <a href="http://www.hypertext.ru" target="_blank">Hypertext</a></div>
+		<!-- Made by <a href="http://www.hypertext.ru" target="_blank">Hypertext</a> -->
 	</div>
 
 </footer>

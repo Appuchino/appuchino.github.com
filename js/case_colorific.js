@@ -27,4 +27,5 @@ $(function() {
 		prevButton: '.pad_container ._control_right'
 	});
 
+
 });

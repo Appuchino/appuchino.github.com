@@ -17,5 +17,15 @@ $(function() {
 		}
 	});
 
+	var colorific_screens_swiper = new Swiper('.process_steps', {
+		slidesPerView: 1,
+		autoplay : 3000,
+		speed: 100,
+		simulateTouch : false,
+		slideClass: 'olapp_dev_slide',
+		wrapperClass: '_columns',
+		nextButton: '.olapp_development ._control_left',
+		prevButton: '.olapp_development ._control_right'
+	});
 
 });

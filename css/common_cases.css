@@ -16,7 +16,7 @@
 
 	.case header ._deco ._deco_bottom {
 		position: absolute;
-		bottom: 0;
+		bottom: -1px;
 		left: 0;
 		background-image: url('../images/milk-wave.svg');
 		background-repeat: no-repeat;
@@ -194,6 +194,55 @@
 		.feature.feature_smart .actions {
 			margin-top: 2vw;
 		}
+
+.more_apps {
+	margin-bottom: 1vw;
+}
+
+	.more_apps ._c {
+	}
+
+	.more_apps ._columns {
+		width: 100%;
+	}
+
+		.more_apps ._columns ._column {
+			float: left;
+			width: calc(33.3% - 0.66vw);
+			margin-right: 1vw;
+			
+		}
+			.more_apps ._columns ._column:last-child {
+				margin-right: 0;
+			}
+
+		.more_apps ._columns ._column img {
+			width: 100%;
+			display: block;
+		}
+
+		.more_apps ._columns ._column a {
+			display: block;
+			position: relative;
+			
+		}
+			.more_apps ._columns ._column a .hover {
+				display: none;
+				background-color: rgba(0,0,0,.5);
+				width: 100%;
+				height: calc(100% - 7vw);
+				position: absolute;
+				top: 0; left: 0;
+				color: white;
+				text-align: center;
+				padding-top: 7vw;
+				text-transform: uppercase;
+				font-size: 1vw;
+				letter-spacing: .1vw;
+			}
+				.more_apps ._columns ._column a:hover .hover {
+					display: block;
+				}
 
 @media screen and (max-width: 500px) {
 
@@ -396,5 +445,45 @@
 				margin-top: 14vw;
 			}
 
+	.more_apps {
+		margin-bottom: 0;
+	}
+
+		.more_apps ._c {
+			padding: 0;
+			height: auto;
+			width: 92vw;
+			margin: auto;
+		}
+
+		.more_apps ._columns {
+		}
+
+			.more_apps ._columns ._column {
+				float: none;
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 4vw;
+				
+			}
+				.more_apps ._columns ._column:last-child {
+					margin-right: 0;
+				}
+
+			.more_apps ._columns ._column img {
+			}
+
+			.more_apps ._columns ._column a {
+				
+			}
+				.more_apps ._columns ._column a .hover {
+					height: calc(100% - 22vw);
+					padding-top: 22vw;
+					font-size: 4vw;
+					letter-spacing: .4vw;
+				}
+					.more_apps ._columns ._column a:hover .hover {
+						display: block;
+					}
 
 }

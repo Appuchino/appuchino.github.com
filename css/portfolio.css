@@ -40,6 +40,10 @@
 		margin-bottom: 0;
 	}
 
+	.portfolio .content {
+		margin: 1.5vw 15vw 5vw;
+	}
+
 	.portfolio .types {
 		margin-top: 4.375vw;
 		margin-left: 15vw;
