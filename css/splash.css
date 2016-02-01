@@ -269,6 +269,9 @@
 					display: block;
 					margin: 0 auto;
 				}
+					.slide_responses ul.responses .foto img {
+						max-width: 13vw;
+					}
 				.slide_responses ul.responses .name {
 					display: block;
 					margin: .9vw auto .35vw;
@@ -287,7 +290,7 @@
 					display: block;
 					margin: 1.375vw auto;
 					color: #9c9c9c;
-					width: 35%;
+					width: 50%;
 				}
 
 

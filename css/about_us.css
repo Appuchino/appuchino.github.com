@@ -13,7 +13,7 @@
 
 	.about_us header ._deco ._deco_bottom {
 		position: absolute;
-		bottom: 0;
+		bottom: -1px;
 		left: 0;
 		background-image: url('../images/milk-wave.svg');
 		background-repeat: no-repeat;
