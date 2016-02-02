@@ -22,15 +22,16 @@
 		background-color: #43352c;
 		background-image: url('../images/cases/flipdish/summary-bg.jpg');
 		background-size: cover;
+		overflow: hidden;
 	}
 
 	.case.flipdish .feature.feature_smart ._deco {
 		position: absolute;
-		right: 18vw;
-		top: 10vw;
+		right: -7vw;
+		bottom: -10vw;
 	}
 		.case.flipdish .feature.feature_smart ._deco img {
-			width: 31.25vw;
+			width: 60vw;
 		}
 
 	.case.flipdish header .case_intro .case_appstore img {
@@ -78,12 +79,12 @@
 	}
 
 		.case.flipdish .feature.feature_smart ._deco {
-			right: -5vw;
-			top: 85vw;
+			right: -15vw;
+			top: 105vw;
 			z-index: 1;
 		}
 			.case.flipdish .feature.feature_smart ._deco img {
-				width: 68vw;
+				width: 110vw;
 			}
 
 }
