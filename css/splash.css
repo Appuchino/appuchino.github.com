@@ -252,6 +252,10 @@
 	padding: 4.375vw 0;
 }
 
+	.slide_responses a {
+		color: inherit;
+	}
+
 	.slide_responses div.responses {
 	}
 
