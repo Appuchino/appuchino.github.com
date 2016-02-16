@@ -55,7 +55,7 @@
 
 		.about_us .persons_list .person {
 			display: inline-block;
-			height: 27.5vw;
+			height: 17.5vw; /* was 27.5 with person descriptions */
 			/*float: left;*/
 			width: 32%;
 			margin-bottom: 0;
