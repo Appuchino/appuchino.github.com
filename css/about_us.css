@@ -43,7 +43,7 @@
 	.about_us .about_us_persons ._c {
 		margin-bottom: 4vw;
 		padding-bottom: 4vw;
-		padding-top: 4vw;
+		padding-top: 0;
 		border-style: solid;
 		border-width: 0 0 1px;
 		border-color: #e5e5e5;

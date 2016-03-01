@@ -81,10 +81,12 @@
 				color: #e8e8e7;
 			}
 
-	.case header .case_intro .case_appstore img {
-		margin-top: 10vw;
-		width: 12.5vw;
+	.case header .case_intro .case_appstore {
+		padding-top: 10vw;
 	}
+		.case header .case_intro .case_appstore img {
+			width: 12.5vw;
+		}
 
 .case main {
 	position: relative;
