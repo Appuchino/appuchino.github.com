@@ -99,14 +99,14 @@
 			<div class="form_row">
 				<aside class="email">
 					<label>And e-mail</label>
-					<input {{#if errors.email}}class="error_field"{{/if}} type="email" name="email" value="{{userinfo.email}}">
+					<input tabindex="2" {{#if errors.email}}class="error_field"{{/if}} type="email" name="email" value="{{userinfo.email}}">
 					{{#if errors.email}}<div class="form_error email_error">Wrong E-mail, we won’t be able to reply</div>{{/if}}
 				</aside>
-				<label>Tell us your name</label> <input {{#if errors.person}}class="error_field"{{/if}} type="text" name="person" value="{{userinfo.person}}">
+				<label>Tell us your name</label> <input tabindex="1" {{#if errors.person}}class="error_field"{{/if}} type="text" name="person" value="{{userinfo.person}}">
 				{{#if errors.person}}<div class="form_error email_error">Please, don't be shy</div>{{/if}}
 			</div>
 			<div class="form_row">
-				<label>And your message</label><textarea name="message" value="{{userinfo.message}}"></textarea>
+				<label>And your message</label><textarea tabindex="3" name="message" value="{{userinfo.message}}"></textarea>
 				<button on-click='try_send' class="button button_red">Send</button>
 			</div>
 			{{/if}}
