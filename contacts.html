@@ -107,7 +107,7 @@
 			</div>
 			<div class="form_row">
 				<label>And your message</label><textarea tabindex="3" name="message" value="{{userinfo.message}}"></textarea>
-				<button on-click="try_send; postContactToGoogle(); ga('send', 'event', 'Client', 'Button', 'Clicked');" class="button button_red">Send</button>
+				<button on-click='try_send' onclick="postContactToGoogle(); ga('send', 'event', 'Client', 'Button', 'Clicked');" class="button button_red">Send</button>
 			</div>
 			{{/if}}
 			{{#if state == 'success'}}
