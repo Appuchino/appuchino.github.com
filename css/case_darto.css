@@ -1,0 +1,94 @@
+/* darto */ 
+.case.darto header {
+	background-color: #3b9545;
+	height: 50vw;
+	margin-bottom: 16vw;
+	background-image: url('../images/head-net.png'), url('../images/cases/darto/head-bg-2.jpg');
+	background-repeat: repeat, no-repeat;
+	background-position: center, center;
+	background-size: auto, cover;
+	overflow: visible;
+}
+
+.case.darto header .case_intro .case_description h1 {
+	position: relative;
+	left: -1vw;
+}
+.case.darto header .case_intro .case_description .icon {
+	width: 7.25vw;
+	position: relative;
+	top: 2.5vw;
+	margin-right: 1vw;
+}
+
+	.case.darto .feature.feature_smart {
+		height: 53vw;
+		background-color: #43352c;
+		background-image: url('../images/cases/darto/summary-bg.jpg');
+		background-size: cover;
+		overflow: hidden;
+	}
+
+	.case.darto .feature.feature_smart ._deco {
+		position: absolute;
+		right: -7vw;
+		bottom: -10vw;
+	}
+		.case.darto .feature.feature_smart ._deco img {
+			width: 60vw;
+		}
+
+	.case.darto header .case_intro .case_appstore img {
+		margin-top: 16vw;
+		width: 12.5vw;
+	}
+
+
+
+@media screen and (max-width: 500px) {
+
+	/* darto */
+	.case.darto header {
+		height: 200vw;
+		margin-bottom: 100vw;
+	}
+
+	.case.darto header .case_intro .case_description {
+		padding-top: 28vw;
+	}
+
+	.case.darto header .case_intro .case_description h1 {
+		font-size: 9.7vw;
+		font-weight: 400;
+		position: relative;
+		left: -2vw;
+	}
+	.case.darto header .case_intro .case_description .icon {
+		width: 30vw;
+		position: relative;
+		top: 0;
+		left: .5vw;
+		margin-right: 0;
+	}
+
+	.case.darto header .case_intro .case_description .case_statement {
+		margin-top: 4vw;
+	}
+
+
+	.case.darto .feature.feature_smart {
+		color: #fff;
+		height: 185vw;
+		overflow: hidden;
+	}
+
+		.case.darto .feature.feature_smart ._deco {
+			right: -15vw;
+			top: 105vw;
+			z-index: 1;
+		}
+			.case.darto .feature.feature_smart ._deco img {
+				width: 110vw;
+			}
+
+}
