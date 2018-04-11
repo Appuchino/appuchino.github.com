@@ -141,6 +141,17 @@
 		margin-left: 10vw;
 	}
 
+	.portfolio_case.darto ._c{
+		background-color: #4a9d57;
+	}
+		.portfolio_case.darto ._deco {
+			right: 6vw;
+			bottom: 2vw;
+		}
+			.portfolio_case.darto ._deco img {
+				width: 50.5vw;
+			}
+
 	.portfolio_case.colorific ._c{
 		background-color: #6cb8e7;
 	}

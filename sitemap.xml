@@ -10,13 +10,13 @@
    </url>
    <url>
        <loc>http://appuchino.ie/about-us.html</loc>
-       <lastmod>2016-02-15</lastmod>
+       <lastmod>2017-03-24</lastmod>
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
    </url>
    <url>
        <loc>http://appuchino.ie/colorific.html</loc>
-       <lastmod>2016-02-15</lastmod>
+       <lastmod>2017-03-24</lastmod>
        <changefreq>yearly</changefreq>
        <priority>0.5</priority>
    </url>
@@ -28,19 +28,25 @@
    </url>
    <url>
        <loc>http://appuchino.ie/flipdish.html</loc>
-       <lastmod>2016-02-15</lastmod>
+       <lastmod>2017-03-24</lastmod>
        <changefreq>yearly</changefreq>
        <priority>0.5</priority>
    </url>
    <url>
        <loc>http://appuchino.ie/olapp.html</loc>
-       <lastmod>2016-02-15</lastmod>
+       <lastmod>2017-03-24</lastmod>
+       <changefreq>yearly</changefreq>
+       <priority>0.5</priority>
+   </url>
+   <url>
+       <loc>http://appuchino.ie/darto.html</loc>
+       <lastmod>2017-03-24</lastmod>
        <changefreq>yearly</changefreq>
        <priority>0.5</priority>
    </url>
    <url>
        <loc>http://appuchino.ie/portfolio.html</loc>
-       <lastmod>2016-02-15</lastmod>
+       <lastmod>2017-03-24</lastmod>
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
    </url>
