@@ -76,7 +76,7 @@
 
 		<div class="location">It doesn't matter if you have a clear brief or just an idea. Drop us a line, we'd love to chat about it.</div>
 		<div class="action">
-			<a href="contacts.html#request" class="button button_transparent">Get in touch</a>
+				<a class="button button_transparent drift-open-chat" href="http://docs.drift.com/">Get in touch</a>
 		</div>
 	</div>
 </section>
@@ -84,46 +84,6 @@
 <section class="map">
 	<div class="_c clearfix">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.341783153901!2d-6.180179783680931!3d53.30132497996965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486708c6d39815a1%3A0x18e8ca49b3c699cd!2sofficepods%E2%84%A2+Blackrock!5e0!3m2!1sen!2sie!4v1523459244278" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
-</section>
-
-<section class="contact_form" id="request">
-	<div class="_c clearfix">
-
-		<div class="form" id="contact_form">
-		</div>
-
-		<script type="text/ractive" id="contact_form_template">
-			<h1>Get in touch</h1>
-			{{#if state == 'form'}}
-			<div class="form_row">
-				<aside class="email">
-					<label>And e-mail</label>
-					<input tabindex="2" {{#if errors.email}}class="error_field"{{/if}} type="email" name="email" value="{{userinfo.email}}">
-					{{#if errors.email}}<div class="form_error email_error">Wrong E-mail, we won’t be able to reply</div>{{/if}}
-				</aside>
-				<label>Tell us your name</label> <input tabindex="1" {{#if errors.person}}class="error_field"{{/if}} type="text" name="person" value="{{userinfo.person}}">
-				{{#if errors.person}}<div class="form_error email_error">Please, don't be shy</div>{{/if}}
-			</div>
-			<div class="form_row">
-				<label>And your message</label><textarea tabindex="3" name="message" value="{{userinfo.message}}"></textarea>
-				<button on-click='try_send' class="button button_red">Send</button>
-			</div>
-			{{/if}}
-			{{#if state == 'success'}}
-			<div class="form_row">
-				<div class="message">Sent!<br/>Thanks, we'll get in touch!</div>
-				<button on-click='another_one'>Ok</button>
-			</div>
-			{{/if}}
-			{{#if state == 'error'}}
-			<div class="form_row">
-				<div class="message">Sorry, message was not send due to technical problems.</div>
-				{{#if error_message != ''}}<div class="message">({{error_message}})</div>{{/if}}
-				<button on-click='return_to_form'>Return to your message</button>
-			</div>
-			{{/if}}
-		</script>
 	</div>
 </section>
 
@@ -157,6 +117,7 @@
 
 </footer>
 
+<script type="text/javascript" src="js/drift.js"></script> 
 <script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
 <script src="http://cdn.ractivejs.org/latest/ractive.js"></script>
 <script type="text/javascript" src="js/lib/jquery-1.10.2.min.js"></script>
