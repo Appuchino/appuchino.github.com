@@ -338,6 +338,31 @@
 				width: 65vw;
 			}
 
+			.case header .case_intro .screenshot_x {
+				position: absolute;
+				top: 130vw;
+				left: 11vw;
+				width: 100%;
+				background-image: url('../images/cases/darto/phone-x-shadow.png');
+				background-repeat: no-repeat;
+				background-position: top left;
+				background-size: 89%;
+			}
+	
+				.case header .case_intro .screenshot_x .frame {
+					display: block;
+					margin: 3vw 0 20vw 6vw;
+					width: 70vw;
+					height: 140vw;
+				}
+				.case header .case_intro .screenshot_x .screen {
+					position: absolute;
+					display: block;
+					top: 7.5vw;
+					left: 11vw;
+					width: 60vw;
+				}
+
 		.case header .case_intro .case_description {
 			margin-left: 8.5vw;
 			padding-top: 30vw;
@@ -417,10 +442,10 @@
 			position: relative;
 		}
 
-			.feature .screenshot .frame {
+			.feature .screenshot .screenshot_x .frame {
 				display: none;
 			}
-			.feature .screenshot .screen {
+			.feature .screenshot .screenshot_x .screen {
 				position: static;
 				top: 0;
 				left: 0;
