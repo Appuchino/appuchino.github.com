@@ -42,6 +42,7 @@
 		margin-top: 16vw;
 		width: 12.5vw;
 	}
+	
 
 
 
@@ -61,7 +62,7 @@
 		font-size: 9.7vw;
 		font-weight: 400;
 		position: relative;
-		left: -2vw;
+		left: 0vw;
 	}
 	.case.darto header .case_intro .case_description .icon {
 		width: 30vw;
@@ -90,5 +91,8 @@
 			.case.darto .feature.feature_smart ._deco img {
 				width: 110vw;
 			}
-
+	.case.darto .feature.feature_smart .feature_3 ._deco img {
+		width: 60vw;
+		margin-right: 12vw;
+	}
 }
