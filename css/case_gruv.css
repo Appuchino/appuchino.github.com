@@ -1,0 +1,138 @@
+/* flipdish */ 
+.case.gruv header {
+	background-color: #0072BC;
+	height: 50vw;
+	margin-bottom: 16vw;
+	background-image: url('../images/head-net.png'), url('../images/cases/gruv/head-bg.jpg');
+	background-repeat: repeat, no-repeat;
+	background-position: center, center;
+	background-size: auto, cover;
+	overflow: visible;
+}
+
+.case.gruv header .case_intro .case_description h1 {
+}
+.case.gruv header .case_intro .case_description .icon {
+	width: 7.25vw;
+	position: relative;
+	top: 2.5vw;
+	margin-right: 1vw;
+}
+
+	.case.gruv .feature.feature_smart {
+		height: 53vw;
+		background-color: #43352c;
+		background-image: url('../images/cases/gruv/footer-bg.jpg');
+		background-size: cover;
+		overflow: hidden;
+	}
+
+	.case.gruv .feature.feature_smart ._deco {
+		position: absolute;
+		right: -10vw;
+		bottom: 0vw;
+	}
+		.case.gruv .feature.feature_smart ._deco img {
+			width: 75vw;
+		}
+
+	.case.gruv header .case_intro .case_appstore img {
+		margin-top: 16vw;
+		width: 12.5vw;
+	}
+
+.case.gruv .section_name {
+    text-align: center;
+}
+    .case.gruv .section_name img {
+        display: block;
+        width: 1vw;
+        margin: 0 auto 0.875vw;
+    }
+.case.gruv .section_title {
+    text-align: center;
+    margin: 0 auto 4vw;
+}
+
+
+.gruv_achievments {
+}
+
+    .gruv_achievments ._c {
+        margin-bottom: 5vw;
+        padding-bottom: 5vw;
+        border-style: solid;
+        border-width: 0 0 1px;
+        border-color: #e5e5e5;
+    }
+
+    .gruv_achievments ._four_columns {
+        margin-left: 4vw;
+    }
+
+    .gruv_achievments .gruv_achievment {
+        position: relative;
+    }
+
+        .gruv_achievment img {
+            width: 2.25vw;
+            margin: 0;
+            float: left;
+        }
+
+        .gruv_achievment p {
+            margin-left: 3vw;
+            margin-top: .5vw;
+            color: #9c9c9c;
+            width: 65%;
+        }
+    
+
+
+@media screen and (max-width: 500px) {
+
+	/* flipdish */
+	.case.gruv header {
+		height: 200vw;
+		margin-bottom: 100vw;
+	}
+
+	.case.gruv header .case_intro .case_description {
+		padding-top: 28vw;
+	}
+
+	.case.gruv header .case_intro .case_description h1 {
+		font-size: 9.7vw;
+		font-weight: 400;
+		position: relative;
+		left: 0;
+	}
+	.case.gruv header .case_intro .case_description .icon {
+		width: 30vw;
+		position: relative;
+		top: 0;
+		left: .5vw;
+		margin-right: 0;
+	}
+
+	.case.gruv header .case_intro .case_description .case_statement {
+		margin-top: 4vw;
+	}
+
+
+	.case.gruv .feature.feature_smart {
+		color: #fff;
+		height: 185vw;
+		overflow: hidden;
+	}
+
+		.case.gruv .feature.feature_smart ._deco {
+			right: -15vw;
+			top: 105vw;
+			z-index: 1;
+		}
+			.case.gruv .feature.feature_smart ._deco img {
+				width: 110vw;
+			}
+
+}
