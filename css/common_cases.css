@@ -216,6 +216,22 @@
 			width: 17.5vw;
 		}
 
+
+	.feature .screenshot_pixel {
+		position: relative;
+	}
+
+		.feature .screenshot_pixel .frame {
+			width: 20vw;
+		}
+		.feature .screenshot_pixel .screen {
+			position: absolute;
+			top: calc(2.5vw);
+			left: calc(0.75vw);
+			width: 18.25vw;
+		}
+
+
 	.feature .divider {
 		display: block;
 		margin-top: 1vw;
@@ -246,6 +262,11 @@
 			width: 40vw;
 		}
 
+		.feature.feature_right .screenshot_pixel {
+			float: right;
+			width: 40vw;
+		}
+
 	.feature.feature_left {
 	}
 
@@ -262,6 +283,12 @@
 		}
 
 		.feature.feature_left .screenshot_12 {
+			float: left;
+			width: calc(50vw - 18.75vw + 1.5vw);
+			margin-left: calc(18.75vw - 1.5vw);
+		}
+
+		.feature.feature_left .screenshot_pixel {
 			float: left;
 			width: calc(50vw - 18.75vw + 1.5vw);
 			margin-left: calc(18.75vw - 1.5vw);

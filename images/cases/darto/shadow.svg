@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="553px" height="965px" viewBox="0 0 553 965" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>shadow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.17777529,117 C4.99715366,119.787834 4.99999015,127.446731 4.99999997,127.499724 C4.99999997,124.229027 4.99999998,121.61022 5,121 C5.0000001,118.610165 4.39509831,117 4.39509831,117 L4.17777529,117 C4.12233857,116.811383 4.06316414,116.645064 4,116.504906 L4,75.0055469 C4,26.0928259 30.1130096,0 79.0338909,0 L355.966109,0 C404.88699,0 431,26.0928259 431,75.0055469 L431,198.256059 C430.812328,198.455057 430.641797,198.762919 430.496839,199.154352 L432.873429,199.892685 C433.69335,197.861229 434.773658,198.000106 434.773658,198.000106 L434.773658,199.761189 C434.389608,199.74135 433.386829,204.282691 433.386829,208.963318 L433.386829,289.049526 C433.386829,292.974573 433.613171,295.490218 435,297.553866 L434.773658,299 C434.56185,298.740691 433.705738,298.486953 433,296.829504 L433,297.258375 L430.309953,298.239733 C430.484997,298.923006 430.723955,299.451238 431,299.743941 L431,787.994453 C431,836.896025 404.889732,863 355.966109,863 L243.130416,863 C242.085123,862.444 240.194917,862.057205 238,862.005829 L198,862 C197.834979,862.001967 197.668236,862 197.5,862 C195.094083,862 192.993466,862.402198 191.869585,862.999999 L79.0338909,863 C30.1102678,863 4,836.901572 4,788 L4,320.85954 C4.21159405,320.730978 4.40139787,320.511654 4.55732855,320.191316 L2,319.258375 L2,318.829504 C1.29426163,320.486953 0.438150177,320.740691 0.226341794,321 L0,319.553866 C1.38682919,317.490218 1.61317081,314.974573 1.61317081,311.049526 L1.61317081,267.963318 C1.61317081,263.282691 0.610391504,258.74135 0.226341739,258.761189 L0.226341739,257.000106 C0.226341739,257.000106 1.30664985,256.861229 2.1265714,258.892685 L4.53871053,258.143308 C4.38638345,257.864875 4.2032439,257.694449 4,257.598879 L4,241.85954 C4.21159405,241.730978 4.40139787,241.511654 4.55732855,241.191316 L2,240.258375 L2,239.829504 C1.29426163,241.486953 0.438150177,241.740691 0.226341794,242 L0,240.553866 C1.38682919,238.490218 1.61317081,235.974573 1.61317081,232.049526 L1.61317081,188.963318 C1.61317081,184.282691 0.610391504,179.74135 0.226341739,179.761189 L0.226341739,178.000106 C0.226341739,178.000106 1.30664985,177.861229 2.1265714,179.892685 L4.53871053,179.143308 C4.38638345,178.864875 4.2032439,178.694449 4,178.598879 L4,150.542101 C4.13358919,150.256613 4.24175125,149.849139 4.33155481,149.35265 L4.17777529,117 Z M1,115.000107 C0.836791913,115.000107 2.5,116.806007 2.5,121.290001 L2.5,143.487023 C2.5,150.562866 0.933837891,150.298218 0.663208127,150.763184 L0.5,149.299805 C1.5,147.211548 1.5,144.971852 1.5,143 L1.5,123 C1.5,120.162598 0.940134597,116.762115 0.663208087,116.78219 L1,115.000107 Z" id="path-1"></path>
+        <filter x="-19.3%" y="-7.4%" width="157.0%" height="128.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="40" dy="40" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.527317177   0 0 0 0 0.527317177   0 0 0 0 0.527317177  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="19" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.733763818   0 0 0 0 0.733763818   0 0 0 0 0.733763818  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-iPhone-X/01/Flat-Copy-5" transform="translate(36.000000, 18.000000)">
+            <g id="shadow">
+                <g id="Body">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="shadow">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
