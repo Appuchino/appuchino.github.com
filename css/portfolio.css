@@ -152,6 +152,17 @@
 				width: 50.5vw;
 			}
 
+	.portfolio_case.gruv ._c{
+		background-color: #4A64FF;
+	}
+		.portfolio_case.gruv ._deco {
+			right: 6vw;
+			bottom: -3vw;
+		}
+			.portfolio_case.gruv ._deco img {
+				width: 58vw;
+			}
+
 	.portfolio_case.colorific ._c{
 		background-color: #6cb8e7;
 	}
