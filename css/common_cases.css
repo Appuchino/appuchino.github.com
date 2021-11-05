@@ -106,6 +106,31 @@
 				left: calc(2vw + 2.1vw);
 				width: 22vw;
 			}
+			
+			.case header .case_intro .screenshot_12_s {
+				position: absolute;
+				top: 12vw;
+				left: 19vw;
+				width: 33vw;
+				background-image: url('../images/cases/darto/phone-x-shadow.png');
+				background-repeat: no-repeat;
+				background-position: top left;
+				background-size: cover;
+			}
+
+			.case header .case_intro .screenshot_12_s .frame {
+				margin-top: 1.2vw;
+				margin-left: 2.2vw;
+				margin-bottom: 4.8vw;
+				width: 20.9vw;
+				height: 41.35vw;
+			}
+			.case header .case_intro .screenshot_12_s .screen {
+				position: absolute;
+				top: calc(2.625vw + 0.3vw);
+				left: calc(2vw + 2.1vw);
+				width: 18vw;
+			}
 		.case header .case_intro .case_description {
 			margin-left: 55vw;
 			padding-top: 13.5vw;
@@ -165,11 +190,12 @@
 		.feature.feature .description p {
 			color: #9c9c9c;
 		}
+	
+	.feature.feature .description_w {
+		padding-top: 1vw;
+	}
 
 	.case .feature_1._c {
-		border-color: #e5e5e5;
-		border-width: 0 0 1px;
-		border-style: solid;
 		padding-bottom: 5vw;
 		margin-bottom: 5vw;
 	}
@@ -201,7 +227,7 @@
 			left: calc(1.25vw);
 			width: 17.5vw;
 		}
-
+	
 	.feature .screenshot_12 {
 		position: relative;
 	}
@@ -215,6 +241,20 @@
 			left: calc(1.25vw);
 			width: 17.5vw;
 		}
+
+	.feature .screenshot_12_s {
+		position: relative;
+	}
+
+		.feature .screenshot_12_s .frame {
+			width: 15vw;
+		}
+		.feature .screenshot_12_s .screen {
+			position: absolute;
+			top: calc(1vw);
+			left: calc(1.25vw);
+			width: 13.5vw;
+		}	
 
 
 	.feature .screenshot_pixel {
@@ -252,6 +292,11 @@
 			margin-left: 18.75vw;
 		}
 
+		.feature.feature_right .description_w {
+			margin-right: 35vw;
+			margin-left: 12.75vw;
+		}
+
 		.feature.feature_right .screenshot_x {
 			float: right;
 			width: 40vw;
@@ -260,6 +305,12 @@
 		.feature.feature_right .screenshot_12 {
 			float: right;
 			width: 40vw;
+		}
+
+		.feature.feature_right .screenshot_12_s {
+			float: right;
+			width: calc(35vw - 12.75vw + 1.5vw);
+			margin-left: calc(12.75vw - 1.5vw);
 		}
 
 		.feature.feature_right .screenshot_pixel {
@@ -288,6 +339,12 @@
 			margin-left: calc(18.75vw - 1.5vw);
 		}
 
+		.feature.feature_left .screenshot_12_s {
+			float: left;
+			width: calc(35vw - 12.75vw + 1.5vw);
+			margin-left: calc(12.75vw - 1.5vw);
+		}
+
 		.feature.feature_left .screenshot_pixel {
 			float: left;
 			width: calc(50vw - 18.75vw + 1.5vw);
@@ -299,6 +356,10 @@
 			margin-right: 18.75vw;
 		}
 
+		.feature.feature_left .description_w {
+			margin-left: 35vw;
+			margin-right: 12.75vw;
+		}
 	.feature.feature_smart {
 		position: relative;
 		top: -12.5vw;
@@ -464,6 +525,30 @@
 					left: 11vw;
 					width: 60vw;
 				}
+			.case header .case_intro .screenshot_12_s {
+				position: absolute;
+				top: 130vw;
+				left: 11vw;
+				width: 100%;
+				background-image: url('../images/cases/darto/phone-x-shadow.png');
+				background-repeat: no-repeat;
+				background-position: top left;
+				background-size: 89%;
+			}
+	
+				.case header .case_intro .screenshot_12_s .frame {
+					display: block;
+					margin: 3vw 0 20vw 6vw;
+					width: 70vw;
+					height: 140vw;
+				}
+				.case header .case_intro .screenshot_12_s .screen {
+					position: absolute;
+					display: block;
+					top: 7.5vw;
+					left: 11vw;
+					width: 60vw;
+				}
 
 		.case header .case_intro .case_description {
 			margin-left: 8.5vw;
@@ -533,9 +618,6 @@
 		}
 
 		.case .feature_1._c {
-			border-color: #e5e5e5;
-			border-width: 0 0 1px;
-			border-style: solid;
 			padding-bottom: 10vw;
 			margin-bottom: 10vw;
 		}
@@ -558,6 +640,16 @@
 				display: none;
 			}
 			.feature .screenshot .screenshot_12 .screen {
+				position: static;
+				top: 0;
+				left: 0;
+				width: 40vw;
+			}
+
+			.feature .screenshot .screenshot_12_s .frame {
+				display: none;
+			}
+			.feature .screenshot .screenshot_12_s .screen {
 				position: static;
 				top: 0;
 				left: 0;
