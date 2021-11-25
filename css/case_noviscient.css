@@ -103,7 +103,11 @@
 	/* flipdish */
 	.case.noviscient header {
 		height: 200vw;
-		margin-bottom: 100vw;
+		margin-bottom: 110vw;
+	}
+
+	.case.noviscient header .case_intro .case_appstore a {
+		display: none !important;
 	}
 
 	.case.noviscient header .case_intro .case_description {
@@ -126,6 +130,10 @@
 
 	.case.noviscient header .case_intro .case_description .case_statement {
 		margin-top: 4vw;
+	}
+
+	.case header .case_intro .screenshot_x {
+		top: 160vw;
 	}
 
 
