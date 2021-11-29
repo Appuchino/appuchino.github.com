@@ -10,6 +10,10 @@
 	margin-bottom: 16vw;
 }
 
+	.case .black-white-flip {
+		color: black !important;
+	}
+
 	.case header ._c{
 		z-index: 500;
 	}
@@ -438,6 +442,10 @@
 
 /* cases */
 
+	.case .black-white-flip {
+		color: white !important;
+	}
+
 	.case header ._deco ._deco_bottom {
 		background-image: url('../images/milk-wave.png');
 		background-position: left bottom;
@@ -453,7 +461,7 @@
 
 		.case header .case_intro .screenshot {
 			position: absolute;
-			top: 110vw;
+			top: 120vw;
 			left: 0;
 			width: 100%;
 			background-image: url('../images/cases/fithit/phone-shadow.png');
@@ -479,12 +487,15 @@
 			.case header .case_intro .screenshot_x {
 				position: absolute;
 				top: 130vw;
-				left: 11vw;
-				width: 100%;
-				background-image: url('../images/cases/darto/phone-x-shadow.png');
+				left: 8vw;
+				right: 0;
+				width: auto;
+				background-image: url(../images/cases/darto/phone-x-shadow.png);
 				background-repeat: no-repeat;
 				background-position: top left;
-				background-size: 89%;
+				background-size: 97%;
+				height: 160vw;
+				overflow: hidden;
 			}
 	
 				.case header .case_intro .screenshot_x .frame {
