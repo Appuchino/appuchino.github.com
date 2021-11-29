@@ -152,8 +152,20 @@
 				width: 50.5vw;
 			}
 
+	.portfolio_case.noviscient ._c{
+		background-color: #5262E4;
+	}
+		.portfolio_case.noviscient ._deco {
+			right: 6vw;
+			bottom: -3vw;
+		}
+		.portfolio_case.noviscient ._deco img {
+			width: 58vw;
+		}
+		
+
 	.portfolio_case.gruv ._c{
-		background-color: #4A64FF;
+		background-color: #346BD4;
 	}
 		.portfolio_case.gruv ._deco {
 			right: 6vw;
