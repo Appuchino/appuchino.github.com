@@ -148,6 +148,10 @@
 		margin-bottom: 110vw;
 	}
 
+	.case.noviscient .feature ._c {
+		width: 100vw;
+	}
+
 	.case.noviscient header .case_intro .case_appstore a {
 		display: none !important;
 	}
@@ -175,7 +179,7 @@
 	}
 
 	.case.noviscient header .case_intro .screenshot_x {
-		top: 160vw;
+		top: 163vw;
 		background-size: 97%;
 	}
 
@@ -183,7 +187,7 @@
 		display: block;
 		margin: 3vw 0 20vw 6vw;
 		width: 70vw;
-		height: 140vw;
+		height: 139vw;
 	}
 	.case.noviscient header .case_intro .screenshot_x .screen {
 		position: absolute;
@@ -194,15 +198,25 @@
 	}
 
 	.case.noviscient main > section:nth-child(3) .description_w {
-		padding-top: 44vw;
+		padding-top: 44vw !important;
+	}
+
+	.case.noviscient .feature_2 .description_w {
+		padding-top: 28vw;
 	}
 
 	.case.noviscient main > section:nth-child(3) .feature_1 {
-		padding-bottom: 50vw;
+		padding-bottom: 53vw;
+		margin-top: 23vw;
 	}
 
 	.case.noviscient .feature_1._c {
 		overflow: hidden;
+		padding-bottom: 25vw;
+	}
+
+	.case.noviscient .feature .feature_1 .description_w {
+		padding-top: 9vw;
 	}
 
 	.case.noviscient .feature.feature_right .screenshot_12_s {
@@ -242,7 +256,8 @@
 	}
 
 		.case.noviscient .feature.feature_smart ._deco {
-			right: -15vw;
+			right: -6vw;
+			left: auto;
 			top: 105vw;
 			z-index: 1;
 		}
@@ -250,4 +265,7 @@
 				width: 110vw;
 			}
 
+	.case.noviscient .feature.feature_smart .actions {
+		text-align: center;
+	}
 }
