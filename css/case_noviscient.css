@@ -10,8 +10,23 @@
 	overflow: visible;
 }
 
-.case header .case_intro .case_description {
+.case.noviscient header .case_intro .case_description {
 	margin-right: 18vw;
+}
+
+.case.noviscient header .case_intro .screenshot_x {
+	background-size: 98% 100%;
+}
+
+.case.noviscient header .case_intro .screenshot_x .screen {
+	position: absolute;
+	top: calc(2.625vw + 0.3vw);
+	left: calc(2vw + 1.9vw);
+	width: 22vw;
+}
+
+.case.noviscient header .case_intro .screenshot_x .frame {
+	margin-left: 1.9vw;
 }
 
 .case.noviscient header .case_intro .case_description h1 {
@@ -29,16 +44,43 @@
 		background-image: url('../images/cases/noviscient/footer-bg-2.jpg');
 		background-size: cover;
 		overflow: hidden;
+		top: -21.5vw;
+	}
+
+	.case.noviscient .feature.feature_smart .description {
+		margin-right: 18.75vw;
+		margin-left: 54vw;
+		padding-top: 17.5vw;
 	}
 
 	.case.noviscient .feature.feature_smart ._deco {
 		position: absolute;
-		right: -10vw;
+		left: -15vw;
 		bottom: -10vw;
 	}
 		.case.noviscient .feature.feature_smart ._deco img {
 			width: 75vw;
 		}
+
+	.case.noviscient .feature .screenshot_12_s .frame {
+		width: 20vw;
+	}
+
+	.case.noviscient .feature .screenshot_12_s .screen {
+		width: 17.5vw;
+	}
+
+	.case.noviscient .feature_2 .description_w {
+		padding-top: 8vw;
+	}
+
+	.case.noviscient main > section:nth-child(3) .feature_1 {
+		margin-top: 3vw;
+	}
+
+	.case.noviscient main > section:nth-child(3) .description_w {
+		padding-top: 4vw;
+	}
 
 	.case.noviscient header .case_intro .case_appstore img {
 		margin-top: 16vw;
@@ -58,7 +100,7 @@
     margin: 0 auto 4vw;
 }
 
-.task_description {
+.case.noviscient .task_description {
 	font-size: 1.5vw;
 	line-height: 2.25vw;
 	width: 80%;
@@ -95,7 +137,7 @@
             color: #9c9c9c;
             width: 65%;
         }
-    
+
 
 
 @media screen and (max-width: 500px) {
@@ -132,10 +174,66 @@
 		margin-top: 4vw;
 	}
 
-	.case header .case_intro .screenshot_x {
+	.case.noviscient header .case_intro .screenshot_x {
 		top: 160vw;
+		background-size: 97%;
 	}
 
+	.case.noviscient header .case_intro .screenshot_x .frame {
+		display: block;
+		margin: 3vw 0 20vw 6vw;
+		width: 70vw;
+		height: 140vw;
+	}
+	.case.noviscient header .case_intro .screenshot_x .screen {
+		position: absolute;
+		display: block;
+		top: 7.5vw;
+		left: 11vw;
+		width: 60vw;
+	}
+
+	.case.noviscient main > section:nth-child(3) .description_w {
+		padding-top: 44vw;
+	}
+
+	.case.noviscient main > section:nth-child(3) .feature_1 {
+		padding-bottom: 50vw;
+	}
+
+	.case.noviscient .feature_1._c {
+		overflow: hidden;
+	}
+
+	.case.noviscient .feature.feature_right .screenshot_12_s {
+		position: absolute;
+		right: 0;
+	}
+
+	.case.noviscient .feature.feature_left .screenshot_12_s {
+		position: absolute;
+		left: -53vw;
+	}
+
+	.case.noviscient .feature .screenshot_12_s .frame {
+		width: 65vw;
+	}
+
+	.case.noviscient .feature .screenshot_12_s .screen {
+		width: 58vw;
+		top: 3vw;
+		left: 3.5vw;
+	}
+
+	.case.noviscient main > section:nth-child(3) .screenshot_12_s {
+		top: 20vw;
+	}
+
+	.case.noviscient .feature.feature_smart .description {
+		margin-right: 13vw;
+		margin-left: 13vw;
+		padding-top: 17.5vw;
+	}
 
 	.case.noviscient .feature.feature_smart {
 		color: #fff;
